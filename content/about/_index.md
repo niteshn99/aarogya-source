@@ -16,4 +16,4 @@ Aarogya is mission to not only spread health awareness but also connect you with
 * No hussle, our platform provides wide range of variety in terms of different health packages fused with best tests.
 
 
-[1]: /img/header/AarogyaBharatB1.png
+[1]: /img/header/AarogyaB1.png

@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return content;
     }
 
-    axios.get("/search")
+    axios.get("/aarogya/search")
         .then(function (result) {
             const searchContent = result.data;
             const searchIndex = lunr(function () {
