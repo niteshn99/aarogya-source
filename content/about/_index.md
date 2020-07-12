@@ -1,6 +1,6 @@
 +++
 date = "2020-07-011T21:05:33+05:30"
-title = "About me"
+title = "About Us"
 +++
 
 There are no guarantees when it comes to safety unless you are doing your part, so turn you attention to accident prevention and stay alert to possible hazards in your healthy life so that you can take steps to correct or guard against them.
