@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="container">
+<section class="pt-5 pb-5" data-aos="fade-up"></section>
+<section class="pt-5 pb-5" data-aos="fade-up">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="t">
+           <h3 class="h5 mb-4 font-weight-bold pt-3">{{ .Title }}</h3>
+           {{ .Content }}
+           
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSft-VHG-FGIpq0l5hZGKeGUyZH7QiOs1xSBUHe5TCkGskzbEQ/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+{{ end }}

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="container">
+	<section class="pt-5 pb-5" data-aos="fade-up"></section>
+	<section class="pt-5 pb-5" data-aos="fade-up">
+		<h3 class="h5 mb-4 font-weight-bold">{{ .Title }}</h3>
+		<div class="row">
+			<div class="col-7">
+				<div class="card shadow-sm">
+					{{ if and (isset .Params "image") .Params.image }}
+				    {{ if eq .Params.showonlyimage true }}
+				    <a href="{{ .Permalink }}">
+				    {{ else }}
+				    <a href="{{ .Permalink }}">
+				    {{ end }}
+					<img class="img-card-top img-fluid" src="{{.Params.image | absURL}}">
+					</a>
+					{{ end }}
+					<div class="card-body">
+						<h5 class="card-title bg-success font-weight-bold text-left text-white pt-2 pb-2 pl-2">{{ .Title }}</h5>
+						<div class="">
+							{{ .Content }} 
+				        </div>
+					</div>
+				</div>		
+			</div>
+			<div class="col-5">
+				{{ partial "book-now-form.html" . }}
+				<h3 class="h5 mb-4 font-weight-bold pt-5">Browse by category</h3>
+				{{ partial "categories.html" . }}
+				<h3 class="h5 mb-4 font-weight-bold pt-5">Browse by tags</h3>
+				{{ partial "tags.html" . }}
+			</div>
+		</div>
+	</section>
+</main>
+
+{{ end }}

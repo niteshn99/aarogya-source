@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+    	{{- partial "nav.html" . -}}
+        {{- partial "header.html" . -}}
+		<main class="container">
+			<section class="pt-5 pb-1" data-aos="fade-up">
+
+			</section>
+			<section class="pt-5 pb-1" data-aos="fade-up">
+				<h3 class="h5 mb-4 font-weight-bold pt-5">{{ .Title }}</h3>
+		        <div class="row gap-y">
+				  {{ range .Data.Pages }}
+				  	<div class="col-md-3 col-lg-4">
+						{{ partial "card.html" . }}
+					</div>
+				  {{ end }}
+				</div>
+			</section>
+		</main>        
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
+

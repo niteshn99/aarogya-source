@@ -1,0 +1,3 @@
+**Regular health exams and tests can help find problems before they start. They also can help find problems early, when your chances for treatment and cure are better. By getting the right health services, screenings, and treatments, you are taking steps that help your chances for living a longer, healthier life. Your age, health and family history, lifestyle choices (i.e. what you eat, how active you are, whether you smoke), and other important factors impact what and how often you need healthcare.**  
+
+###### **In Association with** ![Thyrocare](img/header/Thyrocarelogo.png) 

@@ -1,0 +1,224 @@
++++
+contenttype = "profile"
+showonlyimage = true
+draft = false
+image = "http://www.thyrocare.com/wellness/img/Banner/P688_banner.jpg"
+date = "1594386475748"
+title = "AAROGYAM XL"
+rate = "8000"
+hc = "300"
+weight = 0
+categories = ["WELLNESS"]
+tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "ARTHRITIS", "HIPERTENSION", "PANCREATIC", "STEROID", "CARDIAC RISK MARKERS", "RENAL", "TOXIC ELEMENTS", "ELECTROLYTES", "LIPID", "VITAMIN", "METABOLIC", "SUBSET", "ELEMENTS", "URINOGRAM", "THYROID", "HORMONE"]
++++
+AAROGYAM XL consist of 185 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, HIPERTENSION, PANCREATIC, STEROID, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, METABOLIC, SUBSET, ELEMENTS, URINOGRAM, THYROID, HORMONE
+<!--more-->
+###### Pricing: Rs.8000 { class="text-danger" }
+
+###### List of Tests included { class="text-danger" }
+
+###### IRON DEFICIENCY { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* % TRANSFERRIN SATURATION
+* FERRITIN
+* IRON
+* TOTAL IRON BINDING CAPACITY (TIBC)
+###### LIVER { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* SERUM ALB/GLOBULIN RATIO
+* ALKALINE PHOSPHATASE
+* BILIRUBIN -DIRECT
+* BILIRUBIN (INDIRECT)
+* BILIRUBIN - TOTAL
+* GAMMA GLUTAMYL TRANSFERASE (GGT)
+* PROTEIN - TOTAL
+* ALBUMIN - SERUM
+* SERUM GLOBULIN
+* ASPARTATE AMINOTRANSFERASE (SGOT )
+* ALANINE TRANSAMINASE (SGPT)
+###### COMPLETE HEMOGRAM { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* BASOPHILS - ABSOLUTE COUNT
+* EOSINOPHILS - ABSOLUTE COUNT
+* LYMPHOCYTES - ABSOLUTE COUNT
+* MONOCYTES - ABSOLUTE COUNT
+* NEUTROPHILS - ABSOLUTE COUNT
+* BASOPHILS
+* EOSINOPHILS
+* HEMOGLOBIN
+* IMMATURE GRANULOCYTES(IG)
+* IMMATURE GRANULOCYTE PERCENTAGE(IG%)
+* TOTAL LEUCOCYTES COUNT
+* LYMPHOCYTE PERCENTAGE
+* MEAN CORPUSCULAR HEMOGLOBIN(MCH)
+* MEAN CORP.HEMO.CONC(MCHC)
+* MEAN CORPUSCULAR VOLUME(MCV)
+* MONOCYTES
+* NEUTROPHILS
+* NUCLEATED RED BLOOD CELLS
+* NUCLEATED RED BLOOD CELLS %
+* HEMATOCRIT(PCV)
+* PLATELET COUNT
+* TOTAL RBC
+* RED CELL DISTRIBUTION WIDTH (RDW-CV)
+* RED CELL DISTRIBUTION WIDTH - SD(RDW-SD)
+###### DIABETES { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* AVERAGE BLOOD GLUCOSE (ABG)
+* BLOOD KETONE (D3HB)
+* FASTING BLOOD SUGAR
+* FRUCTOSAMINE
+* HbA1c
+* INSULIN - FASTING
+* URINARY MICROALBUMIN
+###### ARTHRITIS { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* ANTI CCP (ACCP)
+* ANTI NUCLEAR ANTIBODIES (ANA)
+###### HIPERTENSION { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* ALDOSTERONE
+###### PANCREATIC { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* AMYLASE
+* LIPASE
+###### STEROID { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* ANDROSTENEDIONE
+* 17-HYDROXYPROGESTERONE
+* CORTISOL
+* CORTICOSTERONE
+* DEOXYCORTISOL
+* DEHYDROEPIANDROSTERONE
+* DHEA - SULPHATE (DHEAS)
+* ESTRADIOL
+* PROGESTERONE
+* TESTOSTERONE
+###### CARDIAC RISK MARKERS { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* APO B / APO A1 RATIO (APO B/A1)
+* APOLIPOPROTEIN - A1 (APO-A1)
+* APOLIPOPROTEIN - B (APO-B)
+* HOMOCYSTEINE
+* HIGH SENSITIVITY C-REACTIVE PROTEIN (HS-CRP)
+* LIPOPROTEIN (A) [LP(A)]
+* LP-PLA2
+###### RENAL { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* BUN / Sr.CREATININE RATIO
+* BLOOD UREA NITROGEN (BUN)
+* CALCIUM
+* CYSTATIN C
+* CREATININE - SERUM
+* URI. ALBUMIN/CREATININE RATIO (UA/C)
+* CREATININE - URINE
+* URIC ACID
+###### TOXIC ELEMENTS { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* SILVER
+* ALUMINIUM
+* ARSENIC
+* BARIUM
+* BERYLLIUM
+* BISMUTH
+* CADMIUM
+* COBALT
+* CHROMIUM
+* CAESIUM
+* MERCURY
+* MANGANESE
+* MOLYBDENUM
+* NICKEL
+* LEAD
+* ANTIMONY
+* SELENIUM
+* TIN
+* STRONTIUM
+* THALLIUM
+* URANIUM
+* VANADIUM
+###### ELECTROLYTES { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* CHLORIDE
+* POTASSIUM
+* SODIUM
+###### LIPID { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* TOTAL CHOLESTEROL
+* HDL CHOLESTEROL - DIRECT
+* LDL CHOLESTEROL - DIRECT
+* LDL / HDL RATIO
+* NON-HDL CHOLESTEROL
+* TC/ HDL CHOLESTEROL RATIO
+* TRIGLYCERIDES
+* VLDL CHOLESTEROL
+###### VITAMIN { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* VITAMIN D TOTAL
+* VITAMIN D2
+* VITAMIN D3
+* VITAMIN A
+* VITAMIN B-12
+* VITAMIN B1/THIAMIN
+* VITAMIN B2/RIBOFLAVIN
+* VITAMIN B3/NICOTINIC ACID
+* VITAMIN B5/PANTOTHENIC
+* VITAMIN B6/PYRIDOXAL - 5 - PHOSPHATE
+* VITAMIN B7/BIOTIN
+* VITAMIN B9/FOLIC ACID
+* VITAMIN E
+* VITAMIN K
+###### METABOLIC { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* MAGNESIUM
+###### SUBSET { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* T3-T4-TSH
+* LIPID PROFILE
+* LIVER FUNCTION TESTS
+* IRON DEFICIENCY PROFILE
+* SERUM ELECTROLYTES
+* KIDPRO
+* CAMP - MINI HEALTHSCAN
+* URINOGRAM
+* AAROGYAM 1.1
+* CARDIAC RISK MARKERS
+* AAROGYAM 1.2
+* HEMOGRAM - 6 PART (DIFF)
+* BLOOD ELEMENT ANALYSIS PROFILE
+* STEROID PROFILE
+* VITAMIN D PROFILE
+* FAT - SOLUBLE VITAMINS PROFILE
+* ELEMENTS 22 (TOXIC AND NUTRIENTS)
+* VITAMIN B COMPLEX PROFILE
+* WELLNESS G1
+* DIABETIC PROFILE
+* AAROGYAM - A
+* AAROGYAM S2
+* MINI THALASSEMIA PROFILE
+* AAROGYAM 1.8
+* DIABETIC PROFILE - M
+* CARDIAC PROFILE - M
+* CARDIAC PROFILE - A
+* METABOLIC PROFILE - M
+* HEALTHSCREEN - M
+* HEALTHSCREEN - A
+* HEALTHSCREEN - B
+* HEALTHSCREEN - C
+* HEALTHSCREEN - D
+* AVM AAROGYAM PROFILE
+* TAZUR PROFILE - B
+* AAROGYAM 2
+* AAROGYAM 4
+* AAROGYAM 5
+* AAROGYAM 8
+* AAROGYAM X
+* AAROGYAM A
+* AAROGYAM B
+* SKIN CARE PROFILE
+* DIABETIC PROFILE (SUGARSO)
+* COMPLETE VITAMINS PROFILE
+###### ELEMENTS { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* SERUM COPPER
+* SERUM ZINC
+###### URINOGRAM { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* SPECIFIC GRAVITY
+* URINARY BILIRUBIN
+* URINE BLOOD
+* UROBILINOGEN
+* URINARY GLUCOSE
+* URINE KETONE
+* URINARY LEUCOCYTES
+* NITRITE
+* PH
+* URINARY PROTEIN
+###### THYROID { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* TOTAL TRIIODOTHYRONINE (T3)
+* TOTAL THYROXINE (T4)
+* THYROID STIMULATING HORMONE (TSH)
+###### HORMONE { class="card-title bg-light font-weight-bold text-left text-black pt-2 pb-2 pl-2" } 
+* TESTOSTERONE

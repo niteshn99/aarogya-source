@@ -1,0 +1,24 @@
+<div class="card shadow-sm">
+	{{ if and (isset .Params "image") .Params.image }}
+    {{ if eq .Params.showonlyimage true }}
+    <a href="{{ .Permalink }}">
+    {{ else }}
+    <a href="{{ .Permalink }}">
+    {{ end }}
+	<img class="img-card-top" src="{{.Params.image | absURL}}">
+	</a>
+	{{ end }}
+	<div class="card-body">
+		<a href="#">
+		<h5 class="card-title text-dark">{{ .Title }}</h5>
+		<span class="card-text text-muted">
+			{{ if .Description }}
+            	{{ truncate 80 .Description }}
+        	{{ else }}
+              {{ truncate 80 .Summary }}
+            {{ end }} 
+        </span>
+		</a>
+        <a href="{{ .Permalink }}" class="btn btn-info btn-round">Read More</a>
+	</div>
+</div>

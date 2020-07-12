@@ -1,0 +1,16 @@
+<main class="container">
+	<section class="pt-5 pb-1" data-aos="fade-up"></section>
+	<section class="pt-5 pb-1" data-aos="fade-up">
+		{{ .Content }}
+	</section>
+
+	<section class="pt-1 pb-5" data-aos="fade-up">
+	   <div class="row gap-y">
+			{{ range .Pages  }}
+				<div class="col-md-3 col-lg-4">
+					{{ partial "blog.html" . }}
+				</div>
+			{{ end }}
+	    </div>
+	</section>
+</main>

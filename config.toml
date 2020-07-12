@@ -1,0 +1,50 @@
+baseurl = "https://niteshn99.github.io/aarogya/"
+title = "Aarogya"
+theme = ""
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+paginate = 12
+
+enableEmoji = false
+enableGitInfo = false
+enableRobotsTXT = true
+canonifyURLs = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
+
+[params]
+	author = "Nitesh Kumar Gupta"
+	github = ""
+	facebook = ""
+	og_image = ""
+	sitename = "Thyrocare Kit"
+	twitter = ""
+
+
+
+	# Nav links in the side bar
+	[[params.navlinks]]
+	name = "Home"
+	url = "home/"
+	home = true
+
+	[[params.navlinks]]
+	name = "Profiles"
+	url = "profiles/"
+
+	[[params.navlinks]]
+	name = "Blogs"
+	url = "blogs/"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+
+	[[params.navlinks]]
+	name = "Get in touch"
+	url = "contact/"
