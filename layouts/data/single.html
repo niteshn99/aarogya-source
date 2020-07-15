@@ -1,6 +1,6 @@
 {{ $.Scratch.Add "index" slice }}
 
-{{ $searchablePages := where .Site.Pages "Params.contenttype" "in" (slice "profile" "blog" ) }}
+{{ $searchablePages := where .Site.Pages "Params.contenttype" "in" (slice "test" "profile" "blog" ) }}
 
 {{ range $index, $page := $searchablePages }}
   {{ .Scratch.Set "pageData" "" }}
@@ -10,7 +10,7 @@
   {{ .Scratch.Set "pageType" "" }}
 
 
-  {{ if gt (len $page.Content) 0 }}
+  {{ if gt (len $page.Content) -1 }}
     {{ .Scratch.Set "pageContent" $page.Plain }}
     {{ .Scratch.Set "pageURL" $page.Permalink }}
     {{ .Scratch.Set "pageType" $page.Type }}

@@ -22,7 +22,10 @@
         				<p class="m-0 p-0"><span class="font-weight-bold">Price: </span>Rs.{{ .Params.rate }}</p>
 					</div>
 				</div>	
-				<div class="card shadow-sm mt-4">
+				{{ partial "book-now-form.html" . }}	
+			</div>
+			<div class="col-sm-12 col-md-5 col-sm-5">
+				<div class="card shadow-sm">
 					<h5 class="card-title bg-success font-weight-bold text-left text-white pt-2 pb-2 pl-2">Browse by category</h5>
 					<div class="pl-4 pr-4">
 						{{ partial "test-categories.html" . }}
@@ -33,10 +36,7 @@
 					<div class="pl-4 pr-4">
 						{{ partial "test-tags.html" . }}
 					</div>
-				</div>	
-			</div>
-			<div class="col-sm-12 col-md-5 col-sm-5">
-				{{ partial "book-now-form.html" . }}
+				</div>
 			</div>
 		</div>
 	</section>

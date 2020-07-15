@@ -15,8 +15,8 @@
 					<img class="img-card-top img-fluid" src="{{.Params.image | absURL}}">
 					</a>
 					{{ end }}
+					<h5 class="card-title bg-success font-weight-bold text-left text-white pt-2 pb-2 pl-2">{{ .Title }}</h5>
 					<div class="card-body">
-						<h5 class="card-title bg-success font-weight-bold text-left text-white pt-2 pb-2 pl-2">{{ .Title }}</h5>
 						<div class="">
 							{{ .Content }} 
 				        </div>
@@ -28,7 +28,7 @@
 				<h3 class="h5 mb-4 font-weight-bold pt-5">Browse by category</h3>
 				{{ partial "profile-categories.html" . }}
 				<h3 class="h5 mb-4 font-weight-bold pt-5">Browse by tags</h3>
-				{{ partial "tags.html" . }}
+				{{ partial "profile-tags.html" . }}
 			</div>
 		</div>
 	</section>
