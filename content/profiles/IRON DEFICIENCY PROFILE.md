@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P039_banner.jpg"
-date = "1594386475748"
+date = "1594732099526"
 title = "IRON DEFICIENCY PROFILE"
+code = "P039"
 rate = "400"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
+weight = 11138
+categories = ["profile-WELLNESS"]
 tags = ["IRON DEFICIENCY"]
 +++
 IRON DEFICIENCY PROFILE consist of 3 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY

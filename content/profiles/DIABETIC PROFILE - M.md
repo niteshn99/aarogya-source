@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P420_banner.jpg"
-date = "1594386475745"
+date = "1594732099522"
 title = "DIABETIC PROFILE - M"
+code = "P420"
 rate = "1650"
 hc = "300"
-weight = 0
-categories = ["DIABETES"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "RENAL", "ELECTROLYTES", "LIPID", "SUBSET", "THYROID"]
+weight = 11122
+categories = ["profile-DIABETES"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
 +++
 DIABETIC PROFILE - M consist of 75 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, ELECTROLYTES, LIPID, SUBSET, THYROID
 <!--more-->

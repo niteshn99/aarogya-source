@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P447_banner.jpg"
-date = "1594386475751"
+date = "1594732099528"
 title = "METABOLIC PROFILE - M"
+code = "P447"
 rate = "2970"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "RENAL", "TOXIC ELEMENTS", "ELECTROLYTES", "LIPID", "VITAMIN", "SUBSET", "THYROID"]
+weight = 11156
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
 +++
 METABOLIC PROFILE - M consist of 85 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, SUBSET, THYROID
 <!--more-->

@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P226_banner.jpg"
-date = "1594386475747"
+date = "1594732099525"
 title = "VITAMIN D PROFILE"
+code = "P226"
 rate = "1250"
 hc = "100"
-weight = 0
-categories = ["VITAMIN"]
+weight = 11125
+categories = ["profile-VITAMIN"]
 tags = ["VITAMIN"]
 +++
 VITAMIN D PROFILE consist of 3 test and consist of fundamental test for screaning of the health staus like VITAMIN

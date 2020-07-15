@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P093_banner.jpg"
-date = "1594386475752"
+date = "1594732099529"
 title = "TUMOUR PANEL (MALE)"
+code = "P093"
 rate = "3120"
 hc = "100"
-weight = 0
-categories = ["CANCER"]
+weight = 11164
+categories = ["profile-CANCER"]
 tags = ["TUMOUR"]
 +++
 TUMOUR PANEL (MALE) consist of 7 test and consist of fundamental test for screaning of the health staus like TUMOUR

@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P292_banner.jpg"
-date = "1594386475751"
+date = "1594732099528"
 title = "VITAMIN B COMPLEX PROFILE"
+code = "P292"
 rate = "2500"
 hc = "100"
-weight = 0
-categories = ["VITAMIN"]
+weight = 11154
+categories = ["profile-VITAMIN"]
 tags = ["VITAMIN"]
 +++
 VITAMIN B COMPLEX PROFILE consist of 8 test and consist of fundamental test for screaning of the health staus like VITAMIN

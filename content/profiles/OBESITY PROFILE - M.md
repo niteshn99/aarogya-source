@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P543_banner.jpg"
-date = "1594386475761"
+date = "1594732099536"
 title = "OBESITY PROFILE - M"
+code = "P543"
 rate = "1650"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "RENAL", "LIPID", "METABOLIC", "SUBSET", "THYROID"]
+weight = 11186
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-THYROID"]
 +++
 OBESITY PROFILE - M consist of 70 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, LIPID, METABOLIC, SUBSET, THYROID
 <!--more-->

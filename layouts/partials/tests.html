@@ -1,0 +1,19 @@
+<main class="container">
+	<section class="pt-5 pb-1" data-aos="fade-up"></section>
+	<section class="pt-5 pb-1" data-aos="fade-up">
+		{{ .Content }}
+	</section>
+
+	<section class="pt-1 pb-1" data-aos="fade-up">
+	   <div class="row gap-y">
+			{{ range .Paginator.Pages }}
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					{{ partial "test.html" . }}
+				</div>
+			{{ end }}
+	    </div>
+	</section>
+	<div class="d-flex justify-content-center mt-3 mb-5">
+    	{{ partial "pagination.html" . }}	
+    </div>
+</main>

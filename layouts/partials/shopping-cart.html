@@ -1,0 +1,559 @@
+<main class="container mh-100">
+	<section class="pt-5 pb-5" data-aos="fade-up"></section>
+	
+	<section class="pt-5 pb-5" data-aos="fade-up">
+		<div class="row">
+			<div class="col-sm-12 col-md-7 col-lg-7">
+				<div class="card shadow-sm">
+					<h5 class="card-title bg-success font-weight-bold text-left text-white pt-2 pb-2 pl-2">Tests and Profiles added to cart</h5>
+					<div class="card-body">
+						<div class="shoppingcart">
+							<table class="table">
+								<thead class="thead-light">
+								<tr>
+									<th scope="col"> #      </th>
+									<th scope="col"> Type	</th>
+									<th scope="col"> Name	</th>
+									<th scope="col"> Price	</th>
+									<th scope="col">	</th>
+								</tr>
+								</thead>
+								<tbody class="cart-body"></tbody>
+							</table>
+						</div>			
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="card shadow-sm border-0">
+				    <h5 class="card-title bg-success font-weight-bold text-center text-white pt-2 pb-2">Book Now, Pay Later</h5>
+				    <div class="card-body">
+				        <div class="row">
+				        	<div class="col-12">
+				        		<span class="text-success">Free sample pickup from home/office</span>
+				        	</div>
+				        	<div class="col-12">
+				        		<p class="text-black">You need to make the payment in cash to the technician</p>
+				        	</div>
+				        	<div class="col-12 mt-4">
+				        		<form>
+				        			<input type="hidden" name="product" id="product" value="{{ .Title }}" />
+				        			<input type="hidden" name="rate" id="rate" value="{{ .Params.rate }}" />
+				        			<input type="hidden" name="hc" id="hc" value="{{ .Params.hc }}" />
+					        		<div class="form-group col-12 mb-2">
+									  <select class="form-control" id="noofperson" onchange="onNoOfPersonChange()">
+										<option value="0">Number of person</option>
+									  	<option value="1">1</option>
+									    <option value="2">2</option>
+									    <option value="3">3</option>
+									    <option value="4">4</option>
+									    <option value="5">5</option>
+									    <option value="6">6</option>
+									    <option value="7">7</option>
+									    <option value="8">8</option>
+									    <option value="9">9</option>
+									    <option value="10">10</option>
+									  </select>
+									</div>
+								    <div class="form-group col-12 mb-2" id="beneficiary-1">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-1" placeholder="Beneficiary Name 1" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-1" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-1">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-2">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-2" placeholder="Beneficiary Name 2" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-2" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-2">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-3">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-3" placeholder="Beneficiary Name 3" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-3" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-3">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-4">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-4" placeholder="Beneficiary Name 4" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-4" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-4">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-5">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-5" placeholder="Beneficiary Name 5" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-5" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-5">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-6">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-6" placeholder="Beneficiary Name 6" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-6" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-6">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-7">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-7" placeholder="Beneficiary Name 7" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-7" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-7">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-8">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-8" placeholder="Beneficiary Name 8" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-8" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-8">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-9">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-9" placeholder="Beneficiary Name 9" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-9" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-9">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-10">
+								    	<div class="row">
+								    		<div class="form-group col-12 mb-2">
+									        	<input type="text" class="form-control" id="beneficiary-name-10" placeholder="Beneficiary Name 10" />
+										    </div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<input type="text" class="form-control" id="beneficiary-age-10" placeholder="Age" />		
+								    		</div>
+								    		<div class="col-sm-12 col-md-6 col-lg-6">
+								    			<select class="form-control" id="beneficiary-gender-10">
+												  	<option value="G">Gender</option>
+												    <option value="F">Female</option>
+												    <option value="M">Male</option>
+												    <option value="O">Others</option>
+												  </select>				
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								        <input type="text" class="form-control" id="email" placeholder="Email" />
+								        <p class="text-danger font-italic">Note: Put your correct email id to get order updates.</p>
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								        <input type="text" class="form-control" id="mobile" placeholder="Phone Number" />
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								        <textarea class="form-control" rows="3" id="address" placeholder="Complete address"></textarea>
+								    	<p class="text-danger font-italic">Note: Order with incomplete address will be rejected.</p>
+								    	<p class="text-danger font-italic">Min length of 25 character.</p>
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								    	<div class="row">
+								    		<div class="col-sm-12 col-md-5 col-lg-5">
+								    			<input type="text" class="form-control" id="pincode" placeholder="Pincode"/>	
+								    		</div>
+								    		<div class="col-sm-12 col-md-7 col-lg-7">
+								    			<a type="button" class="btn btn-info" onclick="checkPincodeAvailability()">Check Availiability</a>						
+								    		</div>
+								    		<span class="font-italic ml-3" id="pincodeavailabilitylabel"></span>	
+								    	</div>
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								        <select class="form-control" id="available-date" onchange="onAvailableDateChange()">
+								        	<option value="">Select Preferred Appointment Date</option>
+								        	<option value="{{ (now.AddDate 0 0 1) }}">{{ (now.AddDate 0 0 1).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 2) }}">{{ (now.AddDate 0 0 2).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 3) }}">{{ (now.AddDate 0 0 3).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 4) }}">{{ (now.AddDate 0 0 4).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 5) }}">{{ (now.AddDate 0 0 5).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 6) }}">{{ (now.AddDate 0 0 6).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 7) }}">{{ (now.AddDate 0 0 7).Format "January 2, 2006, Monday" }}</option>
+								        	<option value="{{ (now.AddDate 0 0 8) }}">{{ (now.AddDate 0 0 8).Format "January 2, 2006, Monday" }}</option>
+								        </select>
+								        <span class="font-italic text-danger" id="available-date-error"></span>	
+								    </div>
+								    <div class="form-group col-12 mb-2">
+								        <select class="form-control" id="available-slot">
+								        	<option value="">Select Preferred Time Slot</option>
+								        </select>
+								    </div>
+								    <hr/>
+								    <div class="form-group form-check">
+									    <input type="checkbox" class="form-check-input" id="receive-hardcopy" onchange="calculateTotalPrice()">
+									    <label class="form-check-label text-black" for="receive-hardcopy">Please tick to receive hard copy report, <span class="text-danger font-weight-bold">courier charges Rs.75 extra</span></label>
+									</div>
+								    <div class="form-group col-12 mb-2">
+								    	<span class="text-black font-weight-bold">Total Price: Rs.<span id="price">{{ .Params.rate }}</span></span>
+								    	<button type="button" class="btn btn-success float-right" onclick="bookNowTest()">Book Now</button>
+								    </div>	
+					        	</form>
+				        	</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!-- Shopping cart item script -->
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", initCart);
+
+	function initCart() {
+		/*First remove all existing items*/
+		$('.cart-body tr').remove();
+		/*Update nav bar shopping cart item count*/
+		initCartCount();
+		/*Update total price*/
+		calculateTotalPrice();
+		/*Now add all items*/
+		let items = $.shoppingcart('getAll');
+		let row = 1;
+		items.forEach((item) => {
+			$(".cart-body").append("<tr><th scope='row'>"+ row +"</th><th class='text-capitalize'>"+ item.attributes[0] +"</th><th><a class='text-capitalize'href='"+ item.url +"'><span class='text-capitalize'>"+ item.name +"</span></a></th><th>"+ item.price +"</th><th><i class='fas fa-trash-alt' onclick='removeItem("+ item.id +")'></i></th></tr>");
+			row++;
+		});	
+	}
+
+	function removeItem(id) {
+		$.confirm({
+		    title: 'Remove from cart!',
+		    content: 'Are you sure?',
+		    theme: 'supervan',
+		    buttons: {
+		        confirm: function () {
+		        	$.shoppingcart('remove', {'id': id});            	
+		            initCart();
+		            calculateTotalPrice();
+		        },
+		        cancel: function () {
+		            
+		        }
+		    }
+		});
+	}
+</script>
+
+<!-- Booking now form script -->
+<script type="text/javascript">
+	function onNoOfPersonChange() {
+		let noofperson = $("#noofperson").val();
+		toggleBeneficiaryControl(noofperson);
+		calculateTotalPrice();
+	};
+
+	function toggleBeneficiaryControl(noofperson) {
+		if (noofperson == 0) {
+			noofperson = 1;
+		}
+		for(i=1; i<=10; i++) {
+			if(i<=noofperson) {
+				makeDivVisible("beneficiary-" + i);	
+			} else {
+				makeDivInvisible("beneficiary-" + i);
+			}
+		}
+	}
+
+	function makeDivVisible(id) {
+		$("#" + id).removeClass('d-none');
+	}
+
+	function makeDivInvisible(id) {
+		$("#" + id).addClass('d-none');
+	}
+
+	function checkPincodeAvailability() {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
+		let pincode = $("#pincode").val();
+		let url = THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + pincode + "/PincodeAvailability"; //"https://www.thyrocare.com/APIs/order.svc/CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==/" + pincode + "/PincodeAvailability";
+		$.get(url, function(response) {
+			if(response.status === "Y") {
+				$("#pincodeavailabilitylabel").text("Yes, we provide service at pincode " + pincode);
+				$("#pincodeavailabilitylabel").addClass("text-success");
+				$("#pincodeavailabilitylabel").removeClass("text-danger");
+			} else {
+				$("#pincodeavailabilitylabel").text("Apologies, we do not provide service at pincode " + pincode);
+				$("#pincodeavailabilitylabel").addClass("text-danger");
+				$("#pincodeavailabilitylabel").removeClass("text-success");
+			}
+			progress.close();
+		});
+	}
+
+	function calculateTotalPrice() {
+		let receiveHardcopy = $("#receive-hardcopy").is(":checked");
+		let courierRate = 0;
+		if (receiveHardcopy) {
+			courierRate = 75;
+		}
+		let hc = $("#hc").val();
+		let rate = $("#rate").val();
+		let noofperson = $("#noofperson").val();
+		
+		if (noofperson == 0) {
+			noofperson = 1;
+		}
+
+		let shoppingcartItems = $.shoppingcart('getAll');
+    	let totalRate = 0; 	
+
+    	shoppingcartItems.forEach((item) => {
+    		totalRate += item.price;
+    	});
+
+		totalRate = (parseInt(totalRate) * parseInt(noofperson)) + parseInt(courierRate);
+		
+		$("#price").text(totalRate);
+		$("#rate").val(rate);
+		$("#hc").val(hc);
+	}
+
+	function onAvailableDateChange() {
+		let pincode = $("#pincode").val();
+		let d = $("#available-date").val().split(" ")[0];
+		let date = d.split("-")[2] + "-" + d.split("-")[1] + "-" + d.split("-")[0];
+		if (pincode !== undefined && pincode !== "" && date !== "") {
+			$("#available-date-error").text("");
+			addSlot(pincode, date);	
+		} else {
+			$("#available-date-error").text("Please provide pincode and date");
+			$("#available-date").val("");
+		}
+		
+	}
+
+	function addSlot(pincode, date) {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
+		$('#available-slot').find('option').remove().end();
+		addOption("available-slot", "", "Select Preferred Time Slot");
+		url = THYROCARE_ORDER_ROOT_URL + "/" + pincode + "/" + date + "/GetAppointmentSlots";
+		$.get(url, function(response) {
+			response.LSlotDataRes.forEach(function(slot) {
+				addOption("available-slot", slot.Slot.split(" - ")[0], slot.Slot);
+			});
+			if(response.LSlotDataRes.length == 0) {
+				$("#available-date-error").text("No available slot found on " + date);
+			}
+			progress.close();
+		});
+	}
+
+	function addOption(select, value, text) { 
+        $('#' + select).append($('<option>').val(value).text(text)); 
+    } 
+
+    function bookNowTest() {
+    	let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, sending information to Thyrocare',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
+    	beneficiaryDetail = "<NewDataSet>";
+    	noofperson = $("#noofperson").val();
+    	for(i=1; i<=noofperson; i++) {
+    		beneficiaryDetail += "<Ben_details><Name>" + $("#beneficiary-name-" + i).val() + "</Name><Age>" + $("#beneficiary-age-" + i).val() + "</Age><Gender>" + $("#beneficiary-gender-" + i).val() + "</Gender></Ben_details>";
+    	}
+    	beneficiaryDetail += "</NewDataSet>";
+
+    	let receiveHardcopy = $("#receive-hardcopy").is(":checked");
+    	let appt_date = formatApptDateStr($("#available-date").val(), $("#available-slot").val());
+
+    	let shoppingcartItems = $.shoppingcart('getAll');
+    	let products = ""; 	
+
+    	shoppingcartItems.forEach((item) => {
+    		products += item.name + ",";
+    	});
+    	products = products.substring(1, products.length - 1);
+
+    	orderDetail = {
+    		"api_key": API_KEY,
+    		"orderid": randomStr(6),
+    		"address": $("#address").val(),
+    		"pincode": $("#pincode").val(),
+    		"product": $("#product").val(),
+    		"mobile": $("#mobile").val(),
+    		"email": $("#email").val(),
+    		"service_type": "H",
+    		"order_by": "Nitesh Kumar Gupta",
+    		"report_code": "",
+    		"rate": $("#rate").val(),
+    		"hc": $("#hc").val(),
+    		"appt_date": appt_date,
+    		"reports": receiveHardcopy ? "Y" : "N",
+    		"ref_code": "9096104058",
+    		"pay_type": "Postpaid",
+    		"geo_loction": "",
+    		"bencount": noofperson,
+    		"bendataxml": beneficiaryDetail
+    	};
+
+    	var settings = {
+		  "url": THYROCARE_ORDER_ROOT_URL + "/Postorderdata",
+		  "method": "POST",
+		  "timeout": 0,
+		  "headers": {
+		    "Content-Type": "application/json"
+		  },
+		  "data": JSON.stringify(orderDetail),
+		};
+
+		console.log(settings);
+
+		$.ajax(settings).done(function (response) {
+		  progress.close();
+		  if(response.RESPONSE == "SUCCESS") {
+		  	$.alert({
+			    title: 'Booking successful!',
+			    content: 'Shortly technician will be in touch with you to confirm appointment!',
+			    theme: 'supervan',
+			    backgroundDismiss: true,
+			});
+		  } else {
+		  	$.alert({
+			    title: 'Booking failed!',
+			    content: 'Failed to book. Please try again after sometime!',
+			    theme: 'supervan',
+			    backgroundDismiss: true,
+			});
+		  }
+		});
+    }
+
+    function randomStr(len) { 
+        let ans = '';
+        let arr = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
+        for (var i = len; i > 0; i--) { 
+            ans +=  
+              arr[Math.floor(Math.random() * arr.length)]; 
+        } 
+        return ans; 
+    }
+
+    function formatApptDateStr(date, time) {
+    	let appt_date = date.split(" ")[0];
+    	let hours = time.split(":")[0];
+    	let minutes = time.split(":")[1];
+    	let seconds = "00";
+    	let ampm = "AM";
+    	if(hours > 12) {
+    		hours -= 12;
+    		ampm = "PM";
+    	} else if (hours == 12) {
+    		ampm = "PM";
+    	}
+    	return appt_date + " " + hours + ":" + minutes + ":" + seconds + " " + ampm;
+    }
+</script>

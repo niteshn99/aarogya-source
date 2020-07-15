@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P440_banner.jpg"
-date = "1594386475763"
+date = "1594732099537"
 title = "BONE PROFILE - C"
+code = "P440"
 rate = "3120"
 hc = "300"
-weight = 0
-categories = ["BONE HEALTH"]
-tags = ["ARTHRITIS", "LIVER", "RENAL", "METABOLIC", "SUBSET", "ELEMENTS", "VITAMIN"]
+weight = 11204
+categories = ["profile-BONE HEALTH"]
+tags = ["ARTHRITIS", "profile-LIVER", "profile-RENAL", "profile-METABOLIC", "profile-SUBSET", "profile-ELEMENTS", "profile-VITAMIN"]
 +++
 BONE PROFILE - C consist of 16 test and consist of fundamental test for screaning of the health staus like ARTHRITIS, LIVER, RENAL, METABOLIC, SUBSET, ELEMENTS, VITAMIN
 <!--more-->

@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P688_banner.jpg"
-date = "1594386475748"
+date = "1594732099526"
 title = "AAROGYAM XL"
+code = "P688"
 rate = "8000"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "ARTHRITIS", "HIPERTENSION", "PANCREATIC", "STEROID", "CARDIAC RISK MARKERS", "RENAL", "TOXIC ELEMENTS", "ELECTROLYTES", "LIPID", "VITAMIN", "METABOLIC", "SUBSET", "ELEMENTS", "URINOGRAM", "THYROID", "HORMONE"]
+weight = 11140
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-HIPERTENSION", "profile-PANCREATIC", "profile-STEROID", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-METABOLIC", "profile-SUBSET", "profile-ELEMENTS", "profile-URINOGRAM", "profile-THYROID", "profile-HORMONE"]
 +++
 AAROGYAM XL consist of 185 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, HIPERTENSION, PANCREATIC, STEROID, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, METABOLIC, SUBSET, ELEMENTS, URINOGRAM, THYROID, HORMONE
 <!--more-->

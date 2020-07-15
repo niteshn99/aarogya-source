@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P046_banner.jpg"
-date = "1594386475747"
+date = "1594732099525"
 title = "FT3-FT4-TSH"
+code = "P046"
 rate = "450"
 hc = "100"
-weight = 0
-categories = ["WELLNESS"]
+weight = 11127
+categories = ["profile-WELLNESS"]
 tags = ["THYROID"]
 +++
 FT3-FT4-TSH consist of 3 test and consist of fundamental test for screaning of the health staus like THYROID

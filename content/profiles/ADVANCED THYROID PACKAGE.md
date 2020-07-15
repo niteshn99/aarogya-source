@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P192_banner.jpg"
-date = "1594386475751"
+date = "1594732099528"
 title = "ADVANCED THYROID PACKAGE"
+code = "P192"
 rate = "1000"
 hc = "100"
-weight = 0
-categories = ["WELLNESS"]
+weight = 11150
+categories = ["profile-WELLNESS"]
 tags = ["THYROID"]
 +++
 ADVANCED THYROID PACKAGE consist of 6 test and consist of fundamental test for screaning of the health staus like THYROID

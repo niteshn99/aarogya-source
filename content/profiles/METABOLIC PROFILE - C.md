@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P450_banner.jpg"
-date = "1594386475760"
+date = "1594732099536"
 title = "METABOLIC PROFILE - C"
+code = "P450"
 rate = "7800"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "AMINO ACID", "COMPLETE HEMOGRAM", "DIABETES", "RENAL", "TOXIC ELEMENTS", "ELECTROLYTES", "LIPID", "VITAMIN", "WELLNESS", "SUBSET", "ARTHRITIS", "ELEMENTS", "THYROID"]
+weight = 11181
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-AMINO ACID", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-WELLNESS", "profile-SUBSET", "profile-ARTHRITIS", "profile-ELEMENTS", "profile-THYROID"]
 +++
 METABOLIC PROFILE - C consist of 308 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, AMINO ACID, COMPLETE HEMOGRAM, DIABETES, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, WELLNESS, SUBSET, ARTHRITIS, ELEMENTS, THYROID
 <!--more-->

@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P329_banner.jpg"
-date = "1594386475748"
+date = "1594732099525"
 title = "FEVER PLUS PROFILE"
+code = "P329"
 rate = "2112"
 hc = "100"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["COMPLETE HEMOGRAM", "FEVER", "INFECTION", "SUBSET"]
+weight = 11136
+categories = ["profile-WELLNESS"]
+tags = ["COMPLETE HEMOGRAM", "profile-FEVER", "profile-INFECTION", "profile-SUBSET"]
 +++
 FEVER PLUS PROFILE consist of 36 test and consist of fundamental test for screaning of the health staus like COMPLETE HEMOGRAM, FEVER, INFECTION, SUBSET
 <!--more-->

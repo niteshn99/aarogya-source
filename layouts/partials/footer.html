@@ -20,6 +20,12 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated%2Calways&features=Promise"></script>
+<!-- Environment variables -->
+<script src="{{ "js/environment.js" | absURL }}" type="text/javascript"></script>
+<!-- Shopping Cart -->
+<script src="{{ "js/shoping-cart.js" | absURL }}" type="text/javascript"></script>
+<!-- Jquery confirm -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     
 <!-- Animation -->
 <script src="{{ "js/vendor/aos.js" | absURL }}" type="text/javascript"></script>
@@ -74,4 +80,66 @@ AOS.init({
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
+</script>
+
+<!-- Global Custom Functions -->
+<script type="text/javascript">
+  function addToCart(item) {
+    let profilesArray = [];
+    let shoppingcartItems = $.shoppingcart('getAll');
+    shoppingcartItems.forEach((item) => {
+      if (item.attributes[0] == "profile") {
+        profilesArray.push(item.name);
+      }
+    });
+    let profiles = profilesArray.join(",");
+    if (profiles.length > 0) {
+      tests = item.name + "," + profiles;
+
+      var settings = {
+        "url": THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + tests + "/GetDuplicateTest",
+        "method": "GET",
+        "timeout": 0,
+      };
+
+      $.ajax(settings).done(function (response) {
+        if (response.RESPONSE == "SUCCESS") {
+          if (response.REMARKS == "DUPLICATE TEST NOT FOUND") {
+            addToCartChild(item);
+          } else {
+            $.alert({
+                title: 'Duplicate Test Found',
+                content: item.name + ' test already included in ' + profiles + '.',
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+          }
+        } else {
+          $.alert({
+                title: 'Duplicate test validation',
+                content: "Failed to validate duplicate test. Please try after sometime.",
+                backgroundDismiss: true,
+                theme: 'supervan',
+            });
+        }
+      });  
+    } else {
+      addToCartChild(item);
+    }
+    
+  }
+
+  function addToCartChild(item) {
+    $.shoppingcart('add', item);
+    /*Update nav bar shopping cart item count*/
+    initCartCount();
+
+    $.alert({
+        title: 'Add to cart',
+        content: item.name + ' successfully added to your cart.',
+        autoClose: 'ok|2000',
+        backgroundDismiss: true,
+        theme: 'supervan',
+    });
+  }
 </script>

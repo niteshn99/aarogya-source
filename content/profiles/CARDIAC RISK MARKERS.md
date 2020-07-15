@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P178_banner.jpg"
-date = "1594386475758"
+date = "1594732099531"
 title = "CARDIAC RISK MARKERS"
+code = "P178"
 rate = "1300"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
+weight = 11170
+categories = ["profile-WELLNESS"]
 tags = ["CARDIAC RISK MARKERS"]
 +++
 CARDIAC RISK MARKERS consist of 5 test and consist of fundamental test for screaning of the health staus like CARDIAC RISK MARKERS

@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P037_banner.jpg"
-date = "1594386475745"
+date = "1594732099522"
 title = "LIVER FUNCTION TESTS"
+code = "P037"
 rate = "400"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
+weight = 11117
+categories = ["profile-WELLNESS"]
 tags = ["LIVER"]
 +++
 LIVER FUNCTION TESTS consist of 11 test and consist of fundamental test for screaning of the health staus like LIVER

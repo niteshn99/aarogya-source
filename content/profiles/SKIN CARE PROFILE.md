@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P555_banner.jpg"
-date = "1594386475763"
+date = "1594732099538"
 title = "SKIN CARE PROFILE"
+code = "P555"
 rate = "5000"
 hc = "100"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["COMPLETE HEMOGRAM", "DIABETES", "TOXIC ELEMENTS", "VITAMIN", "SUBSET", "THYROID"]
+weight = 11211
+categories = ["profile-WELLNESS"]
+tags = ["COMPLETE HEMOGRAM", "profile-DIABETES", "profile-TOXIC ELEMENTS", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
 +++
 SKIN CARE PROFILE consist of 60 test and consist of fundamental test for screaning of the health staus like COMPLETE HEMOGRAM, DIABETES, TOXIC ELEMENTS, VITAMIN, SUBSET, THYROID
 <!--more-->

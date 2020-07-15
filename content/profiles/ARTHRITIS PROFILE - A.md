@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P379_banner.jpg"
-date = "1594386475752"
+date = "1594732099529"
 title = "ARTHRITIS PROFILE - A"
+code = "P379"
 rate = "4200"
 hc = "300"
-weight = 0
-categories = ["BONE HEALTH"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "ARTHRITIS", "OTHERS", "RENAL", "LIPID", "HB27", "SUBSET", "THYROID"]
+weight = 11162
+categories = ["profile-BONE HEALTH"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-OTHERS", "profile-RENAL", "profile-LIPID", "profile-HB27", "profile-SUBSET", "profile-THYROID"]
 +++
 ARTHRITIS PROFILE - A consist of 75 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, OTHERS, RENAL, LIPID, HB27, SUBSET, THYROID
 <!--more-->

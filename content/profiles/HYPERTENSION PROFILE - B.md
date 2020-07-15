@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P484_banner.jpg"
-date = "1594386475761"
+date = "1594732099537"
 title = "HYPERTENSION PROFILE - B"
+code = "P484"
 rate = "6000"
 hc = "300"
-weight = 0
-categories = ["HEART HEALTH"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "HIPERTENSION", "CARDIAC RISK MARKERS", "RENAL", "ELECTROLYTES", "LIPID", "METABOLIC", "SUBSET", "THYROID"]
+weight = 11193
+categories = ["profile-HEART HEALTH"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HIPERTENSION", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-THYROID"]
 +++
 HYPERTENSION PROFILE - B consist of 93 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, HIPERTENSION, CARDIAC RISK MARKERS, RENAL, ELECTROLYTES, LIPID, METABOLIC, SUBSET, THYROID
 <!--more-->

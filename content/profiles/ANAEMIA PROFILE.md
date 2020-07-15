@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P157_banner.jpg"
-date = "1594386475763"
+date = "1594732099537"
 title = "ANAEMIA PROFILE"
+code = "P157"
 rate = "2000"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "COMPLETE HEMOGRAM", "DIABETES", "LIPID", "VITAMIN", "THYROID"]
+weight = 11206
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-LIPID", "profile-VITAMIN", "profile-THYROID"]
 +++
 ANAEMIA PROFILE consist of 42 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, COMPLETE HEMOGRAM, DIABETES, LIPID, VITAMIN, THYROID
 <!--more-->

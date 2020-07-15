@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P441_banner.jpg"
-date = "1594386475759"
+date = "1594732099534"
 title = "INFERTILITY PROFILE - M"
+code = "P441"
 rate = "1720"
 hc = "300"
-weight = 0
-categories = ["WOMAN HEALTH"]
-tags = ["STEROID", "SUBSET", "THYROID"]
+weight = 11177
+categories = ["profile-WOMAN HEALTH"]
+tags = ["STEROID", "profile-SUBSET", "profile-THYROID"]
 +++
 INFERTILITY PROFILE - M consist of 9 test and consist of fundamental test for screaning of the health staus like STEROID, SUBSET, THYROID
 <!--more-->

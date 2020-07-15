@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P160_banner.jpg"
-date = "1594386475761"
+date = "1594732099536"
 title = "HEPATITIS B PROFILE"
+code = "P160"
 rate = "4800"
 hc = "300"
-weight = 0
-categories = ["INFECTIOUS DISEASE "]
-tags = ["LIVER", "COMPLETE HEMOGRAM", "DIABETES", "HEPATITIS PANEL", "SUBSET", "INFECTIOUS DISEASES"]
+weight = 11190
+categories = ["profile-INFECTIOUS DISEASE "]
+tags = ["LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HEPATITIS PANEL", "profile-SUBSET", "profile-INFECTIOUS DISEASES"]
 +++
 HEPATITIS B PROFILE consist of 44 test and consist of fundamental test for screaning of the health staus like LIVER, COMPLETE HEMOGRAM, DIABETES, HEPATITIS PANEL, SUBSET, INFECTIOUS DISEASES
 <!--more-->

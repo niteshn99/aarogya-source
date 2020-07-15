@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P001_banner.jpg"
-date = "1594386475744"
+date = "1594732099521"
 title = "T3-T4-TSH"
+code = "P001"
 rate = "400"
 hc = "100"
-weight = 0
-categories = ["THYROID"]
+weight = 11112
+categories = ["profile-THYROID"]
 tags = ["THYROID"]
 +++
 T3-T4-TSH consist of 3 test and consist of fundamental test for screaning of the health staus like THYROID

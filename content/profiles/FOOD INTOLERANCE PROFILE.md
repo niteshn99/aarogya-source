@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P651_banner.jpg"
-date = "1594386475747"
+date = "1594732099525"
 title = "FOOD INTOLERANCE PROFILE"
+code = "P651"
 rate = "10000"
 hc = "100"
-weight = 0
-categories = ["FOOD INTOLERANCE"]
-tags = ["DAIRY", "FISH", "FRUITS", "MEAT", "CEREALS", "NUTS", "VEGETABLES", "SPICES", "MISCELLANEOUS"]
+weight = 11126
+categories = ["profile-FOOD INTOLERANCE"]
+tags = ["DAIRY", "profile-FISH", "profile-FRUITS", "profile-MEAT", "profile-CEREALS", "profile-NUTS", "profile-VEGETABLES", "profile-SPICES", "profile-MISCELLANEOUS"]
 +++
 FOOD INTOLERANCE PROFILE consist of 217 test and consist of fundamental test for screaning of the health staus like DAIRY, FISH, FRUITS, MEAT, CEREALS, NUTS, VEGETABLES, SPICES, MISCELLANEOUS
 <!--more-->

@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P042_banner.jpg"
-date = "1594386475751"
+date = "1594732099528"
 title = "TORCH ALL EIGHT"
+code = "P042"
 rate = "2120"
 hc = "100"
-weight = 0
-categories = ["WOMAN HEALTH"]
+weight = 11153
+categories = ["profile-WOMAN HEALTH"]
 tags = ["PREGNANCY"]
 +++
 TORCH ALL EIGHT consist of 8 test and consist of fundamental test for screaning of the health staus like PREGNANCY

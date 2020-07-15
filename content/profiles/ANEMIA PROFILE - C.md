@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P417_banner.jpg"
-date = "1594386475763"
+date = "1594732099538"
 title = "ANEMIA PROFILE - C"
+code = "P417"
 rate = "4500"
 hc = "300"
-weight = 0
-categories = ["ANEMIA"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "ELECTROLYTES", "RENAL", "TOXIC ELEMENTS", "LIPID", "VITAMIN", "THALASSEMIA", "SUBSET", "THYROID"]
+weight = 11209
+categories = ["profile-ANEMIA"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ELECTROLYTES", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-VITAMIN", "profile-THALASSEMIA", "profile-SUBSET", "profile-THYROID"]
 +++
 ANEMIA PROFILE - C consist of 106 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ELECTROLYTES, RENAL, TOXIC ELEMENTS, LIPID, VITAMIN, THALASSEMIA, SUBSET, THYROID
 <!--more-->

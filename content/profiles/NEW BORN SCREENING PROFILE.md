@@ -3,12 +3,13 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P314_banner.jpg"
-date = "1594386475760"
+date = "1594732099536"
 title = "NEW BORN SCREENING PROFILE"
+code = "P314"
 rate = "7000"
 hc = "100"
-weight = 0
-categories = ["CHILD WELLNESS"]
+weight = 11182
+categories = ["profile-CHILD WELLNESS"]
 tags = ["NEW BORN SCREENING"]
 +++
 NEW BORN SCREENING PROFILE consist of 42 test and consist of fundamental test for screaning of the health staus like NEW BORN SCREENING

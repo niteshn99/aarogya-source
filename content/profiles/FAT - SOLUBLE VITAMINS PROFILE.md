@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P233_banner.jpg"
-date = "1594386475762"
+date = "1594732099537"
 title = "FAT - SOLUBLE VITAMINS PROFILE"
+code = "P233"
 rate = "2500"
 hc = "100"
-weight = 0
-categories = ["VITAMIN"]
-tags = ["VITAMIN", "SUBSET"]
+weight = 11198
+categories = ["profile-VITAMIN"]
+tags = ["VITAMIN", "profile-SUBSET"]
 +++
 FAT - SOLUBLE VITAMINS PROFILE consist of 7 test and consist of fundamental test for screaning of the health staus like VITAMIN, SUBSET
 <!--more-->

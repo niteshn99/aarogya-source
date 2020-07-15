@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P524_banner.jpg"
-date = "1594386475743"
+date = "1594732099520"
 title = "AAROGYAM B"
+code = "P524"
 rate = "825"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "RENAL", "LIPID", "THYROID"]
+weight = 11111
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-LIPID", "profile-THYROID"]
 +++
 AAROGYAM B consist of 56 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, LIPID, THYROID
 <!--more-->

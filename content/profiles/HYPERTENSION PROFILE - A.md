@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P483_banner.jpg"
-date = "1594386475761"
+date = "1594732099536"
 title = "HYPERTENSION PROFILE - A"
+code = "P483"
 rate = "4320"
 hc = "300"
-weight = 0
-categories = ["HEART HEALTH"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "HIPERTENSION", "RENAL", "ELECTROLYTES", "LIPID", "METABOLIC", "SUBSET", "THYROID"]
+weight = 11192
+categories = ["profile-HEART HEALTH"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HIPERTENSION", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-THYROID"]
 +++
 HYPERTENSION PROFILE - A consist of 78 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, HIPERTENSION, RENAL, ELECTROLYTES, LIPID, METABOLIC, SUBSET, THYROID
 <!--more-->

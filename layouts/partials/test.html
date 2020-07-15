@@ -1,0 +1,15 @@
+<div class="card shadow-sm border-0">
+    <div class="row card-body">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+        	<a href="{{ .Permalink }}"><h5 class="card-title">{{ .Title }}</h5></a>
+        	<p class="m-0 p-0"><span class="font-weight-bold">Groups: </span>{{ delimit .Params.categories ", " }}</p>	
+        	<p class="m-0 p-0"><span class="font-weight-bold">Test For: </span>{{ delimit .Params.tags ", " }}</p>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+        	<h5 class="card-title">Rs.{{ .Params.rate }}</h5>	
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+        	<button class="btn btn-success float-left" onclick="addToCart({'id': {{ .Params.weight }}, 'code': '{{ .Params.code }}', 'image': '{{ .Params.image }}', 'name': '{{ .Params.title }}', 'url': '{{ .Permalink }}', 'attributes': [{{ .Params.contenttype }}], 'price': {{ .Params.rate }}, 'count': 1})">Add To Cart</button>	
+        </div>
+    </div>
+</div>

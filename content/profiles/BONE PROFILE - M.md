@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P437_banner.jpg"
-date = "1594386475753"
+date = "1594732099530"
 title = "BONE PROFILE - M"
+code = "P437"
 rate = "1590"
 hc = "300"
-weight = 0
-categories = ["BONE HEALTH"]
-tags = ["LIVER", "RENAL", "ARTHRITIS", "ELEMENTS", "VITAMIN"]
+weight = 11167
+categories = ["profile-BONE HEALTH"]
+tags = ["LIVER", "profile-RENAL", "profile-ARTHRITIS", "profile-ELEMENTS", "profile-VITAMIN"]
 +++
 BONE PROFILE - M consist of 6 test and consist of fundamental test for screaning of the health staus like LIVER, RENAL, ARTHRITIS, ELEMENTS, VITAMIN
 <!--more-->

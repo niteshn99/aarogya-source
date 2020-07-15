@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P381_banner.jpg"
-date = "1594386475763"
+date = "1594732099537"
 title = "ARTHRITIS PROFILE - C"
+code = "P381"
 rate = "7500"
 hc = "300"
-weight = 0
-categories = ["BONE HEALTH"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "ARTHRITIS", "RENAL", "AUTOIMMUNITY", "ELECTROLYTES", "LIPID", "CARDIAC RISK MARKERS", "HB27", "SUBSET", "THYROID", "VITAMIN"]
+weight = 11205
+categories = ["profile-BONE HEALTH"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-RENAL", "profile-AUTOIMMUNITY", "profile-ELECTROLYTES", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-HB27", "profile-SUBSET", "profile-THYROID", "profile-VITAMIN"]
 +++
 ARTHRITIS PROFILE - C consist of 92 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, RENAL, AUTOIMMUNITY, ELECTROLYTES, LIPID, CARDIAC RISK MARKERS, HB27, SUBSET, THYROID, VITAMIN
 <!--more-->

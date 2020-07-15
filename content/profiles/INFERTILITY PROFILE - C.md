@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P444_banner.jpg"
-date = "1594386475759"
+date = "1594732099534"
 title = "INFERTILITY PROFILE - C"
+code = "P444"
 rate = "6240"
 hc = "300"
-weight = 0
-categories = ["WOMAN HEALTH"]
-tags = ["HEPATITIS PANEL", "HIPERTENSION", "STEROID", "INFECTIOUS DISEASES", "VITAMIN", "SUBSET", "THYROID"]
+weight = 11176
+categories = ["profile-WOMAN HEALTH"]
+tags = ["HEPATITIS PANEL", "profile-HIPERTENSION", "profile-STEROID", "profile-INFECTIOUS DISEASES", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
 +++
 INFERTILITY PROFILE - C consist of 32 test and consist of fundamental test for screaning of the health staus like HEPATITIS PANEL, HIPERTENSION, STEROID, INFECTIOUS DISEASES, VITAMIN, SUBSET, THYROID
 <!--more-->

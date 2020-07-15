@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P690_banner.jpg"
-date = "1594386475748"
+date = "1594732099526"
 title = "COVID ANTIBODY - GT"
+code = "P690"
 rate = "1000"
 hc = "100"
-weight = 0
-categories = ["INFECTIOUS DISEASES"]
-tags = ["Infectious Diseases", "INFECTIOUS DISEASES"]
+weight = 11139
+categories = ["profile-INFECTIOUS DISEASES"]
+tags = ["Infectious Diseases", "profile-INFECTIOUS DISEASES"]
 +++
 COVID ANTIBODY - GT consist of 2 test and consist of fundamental test for screaning of the health staus like Infectious Diseases, INFECTIOUS DISEASES
 <!--more-->

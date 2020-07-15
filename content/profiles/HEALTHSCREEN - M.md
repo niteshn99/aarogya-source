@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P451_banner.jpg"
-date = "1594386475761"
+date = "1594732099536"
 title = "HEALTHSCREEN - M"
+code = "P451"
 rate = "675"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["COMPLETE HEMOGRAM", "DIABETES", "THYROID"]
+weight = 11189
+categories = ["profile-WELLNESS"]
+tags = ["COMPLETE HEMOGRAM", "profile-DIABETES", "profile-THYROID"]
 +++
 HEALTHSCREEN - M consist of 29 test and consist of fundamental test for screaning of the health staus like COMPLETE HEMOGRAM, DIABETES, THYROID
 <!--more-->

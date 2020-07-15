@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P163_banner.jpg"
-date = "1594386475748"
+date = "1594732099526"
 title = "VITAMIN PROFILE"
+code = "P163"
 rate = "1584"
 hc = "100"
-weight = 0
-categories = ["VITAMIN"]
-tags = ["RENAL", "VITAMIN", "THYROID"]
+weight = 11147
+categories = ["profile-VITAMIN"]
+tags = ["RENAL", "profile-VITAMIN", "profile-THYROID"]
 +++
 VITAMIN PROFILE consist of 5 test and consist of fundamental test for screaning of the health staus like RENAL, VITAMIN, THYROID
 <!--more-->

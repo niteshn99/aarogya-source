@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P207_banner.jpg"
-date = "1594386475744"
+date = "1594732099521"
 title = "AAROGYAM 1.4"
+code = "P207"
 rate = "2500"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "PANCREATIC ", "CARDIAC RISK MARKERS", "RENAL", "TOXIC ELEMENTS", "ELECTROLYTES", "LIPID", "SUBSET", "ELEMENTS", "THYROID", "HORMONE", "VITAMIN"]
+weight = 11114
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC ", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-SUBSET", "profile-ELEMENTS", "profile-THYROID", "profile-HORMONE", "profile-VITAMIN"]
 +++
 AAROGYAM 1.4 consist of 135 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC , CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, SUBSET, ELEMENTS, THYROID, HORMONE, VITAMIN
 <!--more-->

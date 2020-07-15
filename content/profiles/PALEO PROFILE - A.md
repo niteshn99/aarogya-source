@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P472_banner.jpg"
-date = "1594386475751"
+date = "1594732099529"
 title = "PALEO PROFILE - A"
+code = "P472"
 rate = "3900"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "PANCREATIC", "CARDIAC RISK MARKERS", "RENAL", "ELECTROLYTES", "LIPID", "METABOLIC", "SUBSET", "COMPLETE URINE ANALYSIS", "THYROID", "VITAMIN"]
+weight = 11158
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-COMPLETE URINE ANALYSIS", "profile-THYROID", "profile-VITAMIN"]
 +++
 PALEO PROFILE - A consist of 102 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC, CARDIAC RISK MARKERS, RENAL, ELECTROLYTES, LIPID, METABOLIC, SUBSET, COMPLETE URINE ANALYSIS, THYROID, VITAMIN
 <!--more-->

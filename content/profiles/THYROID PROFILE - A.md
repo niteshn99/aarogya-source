@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P479_banner.jpg"
-date = "1594386475748"
+date = "1594732099525"
 title = "THYROID PROFILE - A"
+code = "P479"
 rate = "660"
 hc = "100"
-weight = 0
-categories = ["THYROID"]
-tags = ["THYROID", "SUBSET"]
+weight = 11135
+categories = ["profile-THYROID"]
+tags = ["THYROID", "profile-SUBSET"]
 +++
 THYROID PROFILE - A consist of 6 test and consist of fundamental test for screaning of the health staus like THYROID, SUBSET
 <!--more-->

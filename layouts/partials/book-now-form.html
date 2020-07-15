@@ -257,7 +257,6 @@
 				    <div class="form-group form-check">
 					    <input type="checkbox" class="form-check-input" id="receive-hardcopy" onchange="calculateTotalPrice()">
 					    <label class="form-check-label text-black" for="receive-hardcopy">Please tick to receive hard copy report, <span class="text-danger font-weight-bold">courier charges Rs.75 extra</span></label>
-					    <label class="form-check-label text-black">Home collection charges <span class="text-danger font-weight-bold">Rs.{{ .Params.hc }}</span> is applicable.</label>
 					</div>
 				    <div class="form-group col-12 mb-2">
 				    	<span class="text-black font-weight-bold">Total Price: Rs.<span id="price">{{ .Params.rate }}</span></span>
@@ -297,10 +296,15 @@
 	}
 
 	function checkPincodeAvailability() {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
 		let pincode = $("#pincode").val();
-		let url = "https://www.thyrocare.com/APIs/order.svc/CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==/" + pincode + "/PincodeAvailability";
+		let url = THYROCARE_ORDER_ROOT_URL + "/" + API_KEY + "/" + pincode + "/PincodeAvailability"; //"https://www.thyrocare.com/APIs/order.svc/CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==/" + pincode + "/PincodeAvailability";
 		$.get(url, function(response) {
-			console.log(response);
 			if(response.status === "Y") {
 				$("#pincodeavailabilitylabel").text("Yes, we provide service at pincode " + pincode);
 				$("#pincodeavailabilitylabel").addClass("text-success");
@@ -310,6 +314,7 @@
 				$("#pincodeavailabilitylabel").addClass("text-danger");
 				$("#pincodeavailabilitylabel").removeClass("text-success");
 			}
+			progress.close();
 		});
 	}
 
@@ -323,7 +328,11 @@
 		let rate = $("#rate").val();
 		let noofperson = $("#noofperson").val();
 
-		totalRate = (parseInt(rate) * parseInt(noofperson)) + parseInt(hc) + parseInt(courierRate);
+		if (noofperson == 0) {
+			noofperson = 1;
+		}
+
+		totalRate = (parseInt(rate) * parseInt(noofperson)) + parseInt(courierRate);
 		
 		$("#price").text(totalRate);
 		$("#rate").val(rate);
@@ -345,9 +354,15 @@
 	}
 
 	function addSlot(pincode, date) {
+		let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, fetching information from server',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
 		$('#available-slot').find('option').remove().end();
 		addOption("available-slot", "", "Select Preferred Time Slot");
-		url = "https://www.thyrocare.com/apis/ORDER.svc/" + pincode + "/" + date + "/GetAppointmentSlots";
+		url = THYROCARE_ORDER_ROOT_URL + "/" + pincode + "/" + date + "/GetAppointmentSlots";
 		$.get(url, function(response) {
 			response.LSlotDataRes.forEach(function(slot) {
 				addOption("available-slot", slot.Slot.split(" - ")[0], slot.Slot);
@@ -355,6 +370,7 @@
 			if(response.LSlotDataRes.length == 0) {
 				$("#available-date-error").text("No available slot found on " + date);
 			}
+			progress.close();
 		});
 	}
 
@@ -363,6 +379,12 @@
     } 
 
     function bookNowTest() {
+    	let progress = $.alert({
+		    title: 'Processing',
+		    content: 'Hold on, sending information to Thyrocare',
+		    theme: 'supervan',
+		    backgroundDismiss: true,
+		});
     	beneficiaryDetail = "<NewDataSet>";
     	noofperson = $("#noofperson").val();
     	for(i=1; i<=noofperson; i++) {
@@ -374,7 +396,7 @@
     	let appt_date = formatApptDateStr($("#available-date").val(), $("#available-slot").val());
 
     	orderDetail = {
-    		"api_key": "CUEMjFxhgtnAbApUpAqJ9QSV7l)qXEH8f0unh8fpQNYcKLWvXyFzEw==",
+    		"api_key": API_KEY,
     		"orderid": randomStr(6),
     		"address": $("#address").val(),
     		"pincode": $("#pincode").val(),
@@ -396,7 +418,7 @@
     	};
 
     	var settings = {
-		  "url": "https://www.thyrocare.com/APIS/ORDER.svc/Postorderdata",
+		  "url": THYROCARE_ORDER_ROOT_URL + "/Postorderdata",
 		  "method": "POST",
 		  "timeout": 0,
 		  "headers": {
@@ -406,11 +428,22 @@
 		};
 
 		$.ajax(settings).done(function (response) {
-		  if(response.RESPONSE == "SUCCESS") {
-		  	alert("Booking successful. Technician will be in touch with you to confirm appointment.");
-		  } else {
-		  	alert("Failed to book order.");
-		  }
+			progress.close();
+			if(response.RESPONSE == "SUCCESS") {
+				$.alert({
+				    title: 'Booking successful!',
+				    content: 'Shortly technician will be in touch with you to confirm appointment!',
+				    theme: 'supervan',
+				    backgroundDismiss: true,
+				});
+			} else {
+				$.alert({
+				    title: 'Booking failed!',
+				    content: 'Failed to book. Please try again after sometime!',
+				    theme: 'supervan',
+				    backgroundDismiss: true,
+				});
+			}
 		});
     }
 

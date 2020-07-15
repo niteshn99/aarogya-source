@@ -1,0 +1,7 @@
+<section class="pt-1 pb-1" data-aos="fade-up">
+	{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+		{{ if in $name "test" }}
+			<a class="btn text-capitalize mt-2 mb-2 btn-{{ index (shuffle (slice "primary" "secondary" "info" "success" "warning" "danger" "purple" "cyan" )) 0  }}" href="{{ "tags/" | absLangURL }}{{ $name | urlize }}">{{ replace (replace $name "test-" "") "-" " " }}</a>
+		{{ end }}
+	{{ end }}
+</section>

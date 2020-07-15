@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P439_banner.jpg"
-date = "1594386475763"
+date = "1594732099537"
 title = "BONE PROFILE - B"
+code = "P439"
 rate = "2380"
 hc = "300"
-weight = 0
-categories = ["BONE HEALTH"]
-tags = ["LIVER", "RENAL", "METABOLIC", "SUBSET", "ARTHRITIS", "ELEMENTS", "VITAMIN"]
+weight = 11203
+categories = ["profile-BONE HEALTH"]
+tags = ["LIVER", "profile-RENAL", "profile-METABOLIC", "profile-SUBSET", "profile-ARTHRITIS", "profile-ELEMENTS", "profile-VITAMIN"]
 +++
 BONE PROFILE - B consist of 13 test and consist of fundamental test for screaning of the health staus like LIVER, RENAL, METABOLIC, SUBSET, ARTHRITIS, ELEMENTS, VITAMIN
 <!--more-->

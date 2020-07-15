@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P443_banner.jpg"
-date = "1594386475761"
+date = "1594732099536"
 title = "INFERTILITY PROFILE - B"
+code = "P443"
 rate = "5040"
 hc = "300"
-weight = 0
-categories = ["WOMAN HEALTH"]
-tags = ["HIPERTENSION", "STEROID", "VITAMIN", "SUBSET", "THYROID"]
+weight = 11188
+categories = ["profile-WOMAN HEALTH"]
+tags = ["HIPERTENSION", "profile-STEROID", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
 +++
 INFERTILITY PROFILE - B consist of 27 test and consist of fundamental test for screaning of the health staus like HIPERTENSION, STEROID, VITAMIN, SUBSET, THYROID
 <!--more-->

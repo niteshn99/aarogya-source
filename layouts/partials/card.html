@@ -9,7 +9,7 @@
 	</a>
 	{{ end }}
 	<div class="card-body">
-		<a href="#">
+		<a href="{{ .Permalink }}">
 		<h5 class="card-title text-dark">{{ .Title }}</h5>
 		<span class="card-text text-muted">
 			{{ if .Description }}
@@ -20,7 +20,8 @@
         </span>
 		</a>
 		<a href="{{ .Permalink }}" class="btn btn-light w-100 mb-3">Price Rs.{{ .Params.rate }}</a>
-        <a href="{{ .Permalink }}" class="btn btn-info float-left">View Detail</a>
+        <button class="btn btn-info float-left" onclick="addToCart({'id': {{ .Params.weight }}, 'code': '{{ .Params.code }}', 'image': '{{ .Params.image }}', 'name': '{{ .Params.title }}', 'url': '{{ .Permalink }}', 'attributes': [{{ .Params.contenttype }}], 'price': {{ .Params.rate }}, 'count': 1})">Add To Cart</button>
         <a href="{{ .Permalink }}" class="btn btn-success float-right">Book Now</a>
 	</div>
 </div>
+

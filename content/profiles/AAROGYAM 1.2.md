@@ -3,13 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P179_banner.jpg"
-date = "1594386475745"
+date = "1594732099522"
 title = "AAROGYAM 1.2"
+code = "P179"
 rate = "1500"
 hc = "300"
-weight = 0
-categories = ["WELLNESS"]
-tags = ["IRON DEFICIENCY", "LIVER", "COMPLETE HEMOGRAM", "DIABETES", "CARDIAC RISK MARKERS", "RENAL", "LIPID", "THYROID"]
+weight = 11121
+categories = ["profile-WELLNESS"]
+tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-LIPID", "profile-THYROID"]
 +++
 AAROGYAM 1.2 consist of 61 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, CARDIAC RISK MARKERS, RENAL, LIPID, THYROID
 <!--more-->
