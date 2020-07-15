@@ -5,11 +5,12 @@
         	<p class="m-0 p-0"><span class="font-weight-bold">Groups: </span>{{ replace (delimit .Params.categories ", ") "test-" "" }}</p>	
         	<p class="m-0 p-0"><span class="font-weight-bold">Test For: </span>{{ replace (delimit .Params.tags ", ") "test-" "" }}</p>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-        	<h5 class="card-title">Rs.{{ .Params.rate }}</h5>	
+        <div class="col-sm-6 col-md-2 col-lg-2">
+        	<h5 class="card-title float-right">Rs.{{ .Params.rate }}</h5>	
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-        	<button class="btn btn-success float-left" onclick="addToCart({'id': {{ .Params.weight }}, 'code': '{{ .Params.code }}', 'image': '{{ .Params.image }}', 'name': '{{ .Params.title }}', 'url': '{{ .Permalink }}', 'attributes': [{{ .Params.contenttype }}], 'price': {{ .Params.rate }}, 'count': 1})">Add To Cart</button>	
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <a href="{{ .Permalink }}" class="btn btn-success float-right">Book Now</a>
+        	<button class="btn btn-info float-right mr-2" onclick="addToCart({'id': {{ .Params.weight }}, 'code': '{{ .Params.code }}', 'image': '{{ .Params.image }}', 'name': '{{ .Params.title }}', 'url': '{{ .Permalink }}', 'attributes': [{{ .Params.contenttype }}], 'price': {{ .Params.rate }}, 'count': 1})">Add To Cart</button>	
         </div>
     </div>
 </div>
