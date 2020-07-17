@@ -4,7 +4,7 @@
 
 <section class="pt-5 pb-5" data-aos="fade-up">
   {{ .Content }}
-  <form id="quick-booking-form">
+  <form id="quick-booking-form" name="quick-booking-form">
     <div id="data"></div>
     <div class="row form-group">
       <div class="col-sm-12 col-md-4 col-lg-4 mt-2 mb-2">
@@ -33,7 +33,7 @@
 
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
-    $('#submit-quick-booking-form').on('click', function(e) {
+    /*$('#submit-quick-booking-form').on('click', function(e) {
       e.preventDefault();
       let progress = $.alert({
         title: 'Processing',
@@ -70,7 +70,7 @@
         $form.trigger("reset");
       });
       
-    });
+    });*/
 
     $('#uploadfile').on("change", function() {
         var file = this.files[0];
@@ -85,6 +85,66 @@
         }
         fr.readAsDataURL(file);
     });
+
+
+    $("form[name='quick-booking-form']").validate({
+        rules: {
+          "Name": "required",
+          "Email": {
+            required: true,
+            email: true
+          },
+          "Phone": {
+            required: true,
+            number: true,
+            minlength: 10,
+            maxlength: 10
+          },
+          "file": "required",
+        },
+        messages: {
+          "Name": "Please provide your full name.",
+          "Email": "Please provide valid email id.",
+          "Phone": "Please provide valid 10 digit phone number.",
+          "file": "Please provide prescription soft copy.",
+        },
+        submitHandler: function(form) {
+          let progress = $.alert({
+            title: 'Processing',
+            content: 'Hold on, sending your message to server.',
+            theme: 'supervan',
+            backgroundDismiss: true,
+          });
+
+          let $form = $('form#quick-booking-form');
+          let jqxhr = $.ajax({
+            url: QUICK_BOOKING_FORM_URL,
+            method: "POST",
+            dataType: "json",
+            data: $form.serializeObject()
+          }).done((response) => {
+            progress.close();
+            if (response.result == "success") {
+              $.alert({
+                title: 'Quick Booking',
+                content: 'Thank you for providing your details. Our representative will shortly get in touch with you to finalize your booking.',
+                theme: 'supervan',
+                autoClose: 'ok|10000',
+                backgroundDismiss: true,
+              });  
+            } else {
+              $.alert({
+                title: 'Quick Booking',
+                content: 'Sometime went wrong. Please try after sometime.',
+                autoClose: 'ok|2000',
+                backgroundDismiss: true,
+                theme: 'supervan',
+              });
+            }
+            $form.trigger("reset");
+          });
+        }
+      }); 
 
   });
 </script>
