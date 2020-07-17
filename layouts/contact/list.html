@@ -8,8 +8,7 @@
         <div class="t">
            <h3 class="h5 mb-4 font-weight-bold pt-3">{{ .Title }}</h3>
            {{ .Content }}
-           
-           <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSft-VHG-FGIpq0l5hZGKeGUyZH7QiOs1xSBUHe5TCkGskzbEQ/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+          
             <form id="contact-form">
               <div class="row form-group">
                   <div class="col-sm-12 col-md-4 col-lg-4 mt-2 mb-2">
@@ -27,12 +26,12 @@
               </div>
               <button type="submit" id="submit-form" class="btn btn-success btn-round">Submit</button>
             </form>
-
         </div>
       </div>
     </div>
   </div>
 </section>
+
 </main>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
@@ -46,7 +45,7 @@
       });
       let $form = $('form#contact-form');
       var jqxhr = $.ajax({
-        url: 'https://script.google.com/macros/s/AKfycbyxcZ4dD0CRK0KctqgoPsIXhy8LnDgL3vX52UhlAuYc_n8d_KQ/exec',
+        url: CONTACT_FORM_URL, //'https://script.google.com/macros/s/AKfycbyxcZ4dD0CRK0KctqgoPsIXhy8LnDgL3vX52UhlAuYc_n8d_KQ/exec',
         method: "GET",
         dataType: "json",
         data: $form.serializeObject()
@@ -69,9 +68,11 @@
             theme: 'supervan',
           });
         }
-        
+        $form.trigger("reset");
       });
     });
+
+
   });
 </script>
 {{ end }}

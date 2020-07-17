@@ -36,13 +36,13 @@
 				        		<p class="text-black">You need to make the payment in cash to the technician</p>
 				        	</div>
 				        	<div class="col-12 mt-4">
-				        		<form>
+				        		<form id="book-now-form" name="book-now-form">
 				        			<input type="hidden" name="product" id="product" value="{{ .Title }}" />
 				        			<input type="hidden" name="rate" id="rate" value="{{ .Params.rate }}" />
 				        			<input type="hidden" name="hc" id="hc" value="{{ .Params.hc }}" />
 					        		<div class="form-group col-12 mb-2">
-									  <select class="form-control" id="noofperson" onchange="onNoOfPersonChange()">
-										<option value="0">Number of person</option>
+									  <select class="form-control" id="noofperson" name="noofperson" onchange="onNoOfPersonChange()">
+										<option value="">Number of person</option>
 									  	<option value="1">1</option>
 									    <option value="2">2</option>
 									    <option value="3">3</option>
@@ -58,14 +58,14 @@
 								    <div class="form-group col-12 mb-2" id="beneficiary-1">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-1" placeholder="Beneficiary Name 1" />
+									        	<input type="text" class="form-control" id="beneficiary-name-1" name="beneficiary-name-1" placeholder="Beneficiary Name 1" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-1" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-1" name="beneficiary-age-1" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-1">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-1" name="beneficiary-gender-1">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -76,14 +76,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-2">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-2" placeholder="Beneficiary Name 2" />
+									        	<input type="text" class="form-control" id="beneficiary-name-2" name="beneficiary-name-2" placeholder="Beneficiary Name 2" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-2" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-2" name="beneficiary-age-2" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-2">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-2" name="beneficiary-gender-2">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -94,14 +94,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-3">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-3" placeholder="Beneficiary Name 3" />
+									        	<input type="text" class="form-control" id="beneficiary-name-3" name="beneficiary-name-3" placeholder="Beneficiary Name 3" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-3" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-3" name="beneficiary-age-3" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-3">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-3" name="beneficiary-gender-3">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -112,14 +112,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-4">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-4" placeholder="Beneficiary Name 4" />
+									        	<input type="text" class="form-control" id="beneficiary-name-4" name="beneficiary-name-4" placeholder="Beneficiary Name 4" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-4" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-4" name="beneficiary-age-4" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-4">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-4" name="beneficiary-gender-4">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -130,14 +130,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-5">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-5" placeholder="Beneficiary Name 5" />
+									        	<input type="text" class="form-control" id="beneficiary-name-5" name="beneficiary-name-5" placeholder="Beneficiary Name 5" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-5" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-5" name="beneficiary-age-5" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-5">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-5" name="beneficiary-gender-5">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -148,14 +148,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-6">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-6" placeholder="Beneficiary Name 6" />
+									        	<input type="text" class="form-control" id="beneficiary-name-6" name="beneficiary-name-6" placeholder="Beneficiary Name 6" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-6" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-6" name="beneficiary-age-6" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-6">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-6" name="beneficiary-gender-6">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -166,14 +166,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-7">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-7" placeholder="Beneficiary Name 7" />
+									        	<input type="text" class="form-control" id="beneficiary-name-7" name="beneficiary-name-7" placeholder="Beneficiary Name 7" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-7" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-7" name="beneficiary-age-7" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-7">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-7" name="beneficiary-gender-7">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -184,14 +184,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-8">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-8" placeholder="Beneficiary Name 8" />
+									        	<input type="text" class="form-control" id="beneficiary-name-8" name="beneficiary-name-8" placeholder="Beneficiary Name 8" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-8" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-8" name="beneficiary-age-8" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-8">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-8" name="beneficiary-gender-8">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -202,14 +202,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-9">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-9" placeholder="Beneficiary Name 9" />
+									        	<input type="text" class="form-control" id="beneficiary-name-9" name="beneficiary-name-9" placeholder="Beneficiary Name 9" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-9" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-9" name="beneficiary-age-9" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-9">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-9" name="beneficiary-gender-9">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -220,14 +220,14 @@
 								    <div class="form-group col-12 mb-2 d-none" id="beneficiary-10">
 								    	<div class="row">
 								    		<div class="form-group col-12 mb-2">
-									        	<input type="text" class="form-control" id="beneficiary-name-10" placeholder="Beneficiary Name 10" />
+									        	<input type="text" class="form-control" id="beneficiary-name-10" name="beneficiary-name-10" placeholder="Beneficiary Name 10" />
 										    </div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<input type="text" class="form-control" id="beneficiary-age-10" placeholder="Age" />		
+								    			<input type="text" class="form-control" id="beneficiary-age-10" name="beneficiary-age-10" placeholder="Age" />		
 								    		</div>
 								    		<div class="col-sm-12 col-md-6 col-lg-6">
-								    			<select class="form-control" id="beneficiary-gender-10">
-												  	<option value="G">Gender</option>
+								    			<select class="form-control" id="beneficiary-gender-10" name="beneficiary-gender-10">
+												  	<option value="">Gender</option>
 												    <option value="F">Female</option>
 												    <option value="M">Male</option>
 												    <option value="O">Others</option>
@@ -236,21 +236,21 @@
 								    	</div>
 								    </div>
 								    <div class="form-group col-12 mb-2">
-								        <input type="text" class="form-control" id="email" placeholder="Email" />
+								        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
 								        <p class="text-purple font-italic">Note: Put your correct email id to get order updates.</p>
 								    </div>
 								    <div class="form-group col-12 mb-2">
-								        <input type="text" class="form-control" id="mobile" placeholder="Phone Number" />
+								        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Phone Number" />
 								    </div>
 								    <div class="form-group col-12 mb-2">
-								        <textarea class="form-control" rows="3" id="address" placeholder="Complete address"></textarea>
+								        <textarea class="form-control" rows="3" id="address" name="address" placeholder="Complete address"></textarea>
 								    	<p class="text-purple font-italic">Note: Order with incomplete address will be rejected.</p>
-								    	<p class="text-purple font-italic">Min length of 25 character.</p>
+								    	<!-- <p class="text-purple font-italic">Min length of 25 character.</p> -->
 								    </div>
 								    <div class="form-group col-12 mb-2">
 								    	<div class="row">
 								    		<div class="col-sm-12 col-md-5 col-lg-5">
-								    			<input type="text" class="form-control" id="pincode" placeholder="Pincode"/>	
+								    			<input type="text" class="form-control" id="pincode" name="pincode" placeholder="Pincode"/>	
 								    		</div>
 								    		<div class="col-sm-12 col-md-7 col-lg-7">
 								    			<a type="button" class="btn btn-info" onclick="checkPincodeAvailability()">Check Availiability</a>						
@@ -259,7 +259,7 @@
 								    	</div>
 								    </div>
 								    <div class="form-group col-12 mb-2">
-								        <select class="form-control" id="available-date" onchange="onAvailableDateChange()">
+								        <select class="form-control" id="available-date" name="available-date" onchange="onAvailableDateChange()">
 								        	<option value="">Select Preferred Appointment Date</option>
 								        	<option value="{{ (now.AddDate 0 0 1) }}">{{ (now.AddDate 0 0 1).Format "January 2, 2006, Monday" }}</option>
 								        	<option value="{{ (now.AddDate 0 0 2) }}">{{ (now.AddDate 0 0 2).Format "January 2, 2006, Monday" }}</option>
@@ -273,7 +273,7 @@
 								        <span class="font-italic text-danger" id="available-date-error"></span>	
 								    </div>
 								    <div class="form-group col-12 mb-2">
-								        <select class="form-control" id="available-slot">
+								        <select class="form-control" id="available-slot" name="available-slot">
 								        	<option value="">Select Preferred Time Slot</option>
 								        </select>
 								    </div>
@@ -284,7 +284,7 @@
 									</div>
 								    <div class="form-group col-12 mb-2">
 								    	<span class="text-black font-weight-bold">Total Price: Rs.<span id="price">{{ .Params.rate }}</span></span>
-								    	<button type="button" class="btn btn-success float-right" onclick="bookNowTest()">Book Now</button>
+								    	<button type="submit" class="btn btn-success float-right">Book Now</button>
 								    </div>	
 					        	</form>
 				        	</div>
@@ -416,8 +416,8 @@
 
 	function onAvailableDateChange() {
 		let pincode = $("#pincode").val();
-		let d = $("#available-date").val().split(" ")[0];
-		let date = d.split("-")[2] + "-" + d.split("-")[1] + "-" + d.split("-")[0];
+		let date = $("#available-date").val().split(" ")[0];
+		//let date = d.split("-")[2] + "-" + d.split("-")[1] + "-" + d.split("-")[0];
 		if (pincode !== undefined && pincode !== "" && date !== "") {
 			$("#available-date-error").text("");
 			addSlot(pincode, date);	
@@ -556,4 +556,103 @@
     	}
     	return appt_date + " " + hours + ":" + minutes + ":" + seconds + " " + ampm;
     }
+
+
+    document.addEventListener("DOMContentLoaded", function(){
+    	$("form[name='book-now-form']").validate({
+	    	rules: {
+	    		"noofperson": "required",
+	    		"beneficiary-name-1": "required",
+	    		"beneficiary-name-2": "required",
+	    		"beneficiary-name-3": "required",
+	    		"beneficiary-name-4": "required",
+	    		"beneficiary-name-5": "required",
+	    		"beneficiary-name-6": "required",
+	    		"beneficiary-name-7": "required",
+	    		"beneficiary-name-8": "required",
+	    		"beneficiary-name-9": "required",
+	    		"beneficiary-name-10": "required",
+	    		"beneficiary-age-1": "required",
+	    		"beneficiary-age-2": "required",
+	    		"beneficiary-age-3": "required",
+	    		"beneficiary-age-4": "required",
+	    		"beneficiary-age-5": "required",
+	    		"beneficiary-age-6": "required",
+	    		"beneficiary-age-7": "required",
+	    		"beneficiary-age-8": "required",
+	    		"beneficiary-age-9": "required",
+	    		"beneficiary-age-10": "required",
+	    		"beneficiary-gender-1": "required",
+	    		"beneficiary-gender-2": "required",
+	    		"beneficiary-gender-3": "required",
+	    		"beneficiary-gender-4": "required",
+	    		"beneficiary-gender-5": "required",
+	    		"beneficiary-gender-6": "required",
+	    		"beneficiary-gender-7": "required",
+	    		"beneficiary-gender-8": "required",
+	    		"beneficiary-gender-9": "required",
+	    		"beneficiary-gender-10": "required",
+	    		"email": {
+	    			required: true,
+	    			email: true
+	    		},
+	    		"mobile": {
+	    			required: true,
+	    			number: true,
+	    			minlength: 10,
+	    			maxlength: 10
+	    		},
+	    		"address": {
+	    			required: true,
+	    			minlength: 25
+	    		},
+	    		"pincode": "required",
+	    		"available-date": "required",
+	    		"available-slot": "required"
+	    	},
+	    	messages: {
+	    		"noofperson": "Please provide number of beneficiaries.",
+	    		"beneficiary-name-1": "Please provide 1st beneficiary full name.",
+	    		"beneficiary-name-2": "Please provide 2nd beneficiary full name.",
+	    		"beneficiary-name-3": "Please provide 3rd beneficiary full name.",
+	    		"beneficiary-name-4": "Please provide 4th beneficiary full name.",
+	    		"beneficiary-name-5": "Please provide 5th beneficiary full name.",
+	    		"beneficiary-name-6": "Please provide 6th beneficiary full name.",
+	    		"beneficiary-name-7": "Please provide 7th beneficiary full name.",
+	    		"beneficiary-name-8": "Please provide 8th beneficiary full name.",
+	    		"beneficiary-name-9": "Please provide 9th beneficiary full name.",
+	    		"beneficiary-name-10": "Please provide 10th beneficiary full name.",
+	    		"beneficiary-age-1": "Please provide 1st beneficiary age.",
+	    		"beneficiary-age-2": "Please provide 2nd beneficiary age.",
+	    		"beneficiary-age-3": "Please provide 3rd beneficiary age.",
+	    		"beneficiary-age-4": "Please provide 4th beneficiary age.",
+	    		"beneficiary-age-5": "Please provide 5th beneficiary age.",
+	    		"beneficiary-age-6": "Please provide 6th beneficiary age.",
+	    		"beneficiary-age-7": "Please provide 7th beneficiary age.",
+	    		"beneficiary-age-8": "Please provide 8th beneficiary age.",
+	    		"beneficiary-age-9": "Please provide 9th beneficiary age.",
+	    		"beneficiary-age-10": "Please provide 10th beneficiary age.",
+	    		"beneficiary-gender-1": "Please provide 1st beneficiary gender.",
+	    		"beneficiary-gender-2": "Please provide 2nd beneficiary gender.",
+	    		"beneficiary-gender-3": "Please provide 3rd beneficiary gender.",
+	    		"beneficiary-gender-4": "Please provide 4th beneficiary gender.",
+	    		"beneficiary-gender-5": "Please provide 5th beneficiary gender.",
+	    		"beneficiary-gender-6": "Please provide 6th beneficiary gender.",
+	    		"beneficiary-gender-7": "Please provide 7th beneficiary gender.",
+	    		"beneficiary-gender-8": "Please provide 8th beneficiary gender.",
+	    		"beneficiary-gender-9": "Please provide 9th beneficiary gender.",
+	    		"beneficiary-gender-10": "Please provide 10th beneficiary gender.",
+	    		"email": "Please enter valid email id.",
+	    		"mobile": "Please enter valid 10 digit mobile number.",
+	    		"address": "Please enter valid address. Min 25 character is required.",
+	    		"pincode": "Please enter valid pincode.",
+	    		"available-date": "Please select valid appointment date",
+	    		"available-slot": "Please select valid appointment slot"
+	    	},
+	    	submitHandler: function(form) {
+	    		bookNowTest();
+	    	}
+    	});	
+    });
+
 </script>

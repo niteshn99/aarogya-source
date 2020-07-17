@@ -1,0 +1,92 @@
+{{ define "main" }}
+<main class="container">
+<section class="pt-5 pb-5" data-aos="fade-up"></section>
+
+<section class="pt-5 pb-5" data-aos="fade-up">
+  {{ .Content }}
+  <form id="quick-booking-form">
+    <div id="data"></div>
+    <div class="row form-group">
+      <div class="col-sm-12 col-md-4 col-lg-4 mt-2 mb-2">
+          <input name="Name" type="text" class="form-control" placeholder="Name">
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mt-2 mb-2">
+          <input name="Email" type="text" class="form-control" placeholder="Email">
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mt-2 mb-2">
+          <input name="Phone" type="text" class="form-control" placeholder="Phone number">
+      </div>
+    </div>
+    <div class="form-group">
+        <textarea name="Message" class="form-control" id="Message" rows="6" placeholder="Message"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="uploadfile">Upload your prescription:</label>
+      <input name="file" id="uploadfile" name="uploadfile" type="file">
+    </div>  
+    <button type="submit" id="submit-quick-booking-form" class="btn btn-success btn-round">Submit</button>
+
+  </form>
+
+</section>
+</main>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    $('#submit-quick-booking-form').on('click', function(e) {
+      e.preventDefault();
+      let progress = $.alert({
+        title: 'Processing',
+        content: 'Hold on, sending your message to server.',
+        theme: 'supervan',
+        backgroundDismiss: true,
+      });
+
+      let $form = $('form#quick-booking-form');
+      let jqxhr = $.ajax({
+        url: QUICK_BOOKING_FORM_URL, //'https://script.google.com/macros/s/AKfycbwv7FoO5Y-rGSS1wX2hM3H0UsU1sC5b2iITodhKAnJoqGr3xHw/exec',
+        method: "POST",
+        dataType: "json",
+        data: $form.serializeObject()
+      }).done((response) => {
+        progress.close();
+        if (response.result == "success") {
+          $.alert({
+            title: 'Quick Booking',
+            content: 'Thank you for providing your details. Our representative will shortly get in touch with you to finalize your booking.',
+            theme: 'supervan',
+            autoClose: 'ok|10000',
+            backgroundDismiss: true,
+          });  
+        } else {
+          $.alert({
+            title: 'Quick Booking',
+            content: 'Sometime went wrong. Please try after sometime.',
+            autoClose: 'ok|2000',
+            backgroundDismiss: true,
+            theme: 'supervan',
+          });
+        }
+        $form.trigger("reset");
+      });
+      
+    });
+
+    $('#uploadfile').on("change", function() {
+        var file = this.files[0];
+        var fr = new FileReader();
+        fr.fileName = file.name
+        fr.onload = function(e) {
+            e.target.result
+            html = '<input type="hidden" name="data" value="' + e.target.result.replace(/^.*,/, '') + '" >';
+            html += '<input type="hidden" name="mimetype" value="' + e.target.result.match(/^.*(?=;)/)[0] + '" >';
+            html += '<input type="hidden" name="filename" value="' + e.target.fileName + '" >';
+            $("#data").empty().append(html);
+        }
+        fr.readAsDataURL(file);
+    });
+
+  });
+</script>
+{{ end }}
+
