@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P482_banner.jpg"
-date = "1594732099537"
+date = "2020-07-17T09:51:22.772Z"
 title = "HYPERTENSION PROFILE - M"
 code = "P482"
 rate = "3267"
 hc = "300"
 weight = 11195
 categories = ["profile-HEART HEALTH"]
-tags = ["LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HIPERTENSION", "profile-RENAL", "profile-CARDIAC RISK MARKERS", "profile-METABOLIC", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HIPERTENSION", "profile-RENAL", "profile-CARDIAC RISK MARKERS", "profile-METABOLIC", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
 +++
 HYPERTENSION PROFILE - M consist of 62 test and consist of fundamental test for screaning of the health staus like LIVER, COMPLETE HEMOGRAM, DIABETES, HIPERTENSION, RENAL, CARDIAC RISK MARKERS, METABOLIC, LIPID, SUBSET, THYROID
 <!--more-->

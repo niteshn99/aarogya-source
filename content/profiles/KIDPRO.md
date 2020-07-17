@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P074_banner.jpg"
-date = "1594732099522"
+date = "2020-07-17T09:51:22.752Z"
 title = "KIDPRO"
 code = "P074"
 rate = "400"
 hc = "300"
 weight = 11118
 categories = ["profile-WELLNESS"]
-tags = ["RENAL"]
+tags = ["profile-RENAL"]
 +++
 KIDPRO consist of 5 test and consist of fundamental test for screaning of the health staus like RENAL
 <!--more-->

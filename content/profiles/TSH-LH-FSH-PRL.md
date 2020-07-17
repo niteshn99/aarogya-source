@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P089_banner.jpg"
-date = "1594732099525"
+date = "2020-07-17T09:51:22.757Z"
 title = "TSH-LH-FSH-PRL"
 code = "P089"
 rate = "792"
 hc = "100"
 weight = 11131
 categories = ["profile-WOMAN HEALTH"]
-tags = ["INFERTILITY", "profile-THYROID"]
+tags = ["profile-INFERTILITY", "profile-THYROID"]
 +++
 TSH-LH-FSH-PRL consist of 4 test and consist of fundamental test for screaning of the health staus like INFERTILITY, THYROID
 <!--more-->

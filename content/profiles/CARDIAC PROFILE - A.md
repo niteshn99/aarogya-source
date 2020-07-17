@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P434_banner.jpg"
-date = "1594732099531"
+date = "2020-07-17T09:51:22.769Z"
 title = "CARDIAC PROFILE - A"
 code = "P434"
 rate = "3300"
 hc = "300"
 weight = 11169
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
 +++
 CARDIAC PROFILE - A consist of 158 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, CARDIAC RISK MARKERS, RENAL, LIPID, SUBSET, THYROID
 <!--more-->

@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P474_banner.jpg"
-date = "1594732099530"
+date = "2020-07-17T09:51:22.764Z"
 title = "PALEO PROFILE - C"
 code = "P474"
 rate = "7800"
 hc = "300"
 weight = 11165
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-HIPERTENSION", "profile-PANCREATIC", "profile-STEROID", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-METABOLIC", "profile-SUBSET", "profile-COMPLETE URINE ANALYSIS", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-HIPERTENSION", "profile-PANCREATIC", "profile-STEROID", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-METABOLIC", "profile-SUBSET", "profile-COMPLETE URINE ANALYSIS", "profile-THYROID"]
 +++
 PALEO PROFILE - C consist of 132 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, HIPERTENSION, PANCREATIC, STEROID, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, METABOLIC, SUBSET, COMPLETE URINE ANALYSIS, THYROID
 <!--more-->

@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P423_banner.jpg"
-date = "1594732099534"
+date = "2020-07-17T09:51:22.770Z"
 title = "DIABETIC PROFILE - C"
 code = "P423"
 rate = "6300"
 hc = "300"
 weight = 11174
 categories = ["profile-DIABETES"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-SUBSET", "profile-THYROID"]
 +++
 DIABETIC PROFILE - C consist of 129 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, SUBSET, THYROID
 <!--more-->

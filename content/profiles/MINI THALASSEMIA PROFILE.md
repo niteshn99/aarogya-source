@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P368_banner.jpg"
-date = "1594732099534"
+date = "2020-07-17T09:51:22.770Z"
 title = "MINI THALASSEMIA PROFILE"
 code = "P368"
 rate = "660"
 hc = "300"
 weight = 11175
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-RENAL", "profile-LIVER", "profile-SUBSET"]
+tags = ["profile-IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-RENAL", "profile-LIVER", "profile-SUBSET"]
 +++
 MINI THALASSEMIA PROFILE consist of 38 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, COMPLETE HEMOGRAM, RENAL, LIVER, SUBSET
 <!--more-->

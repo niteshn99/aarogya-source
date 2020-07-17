@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P544_banner.jpg"
-date = "1594732099536"
+date = "2020-07-17T09:51:22.771Z"
 title = "OBESITY PROFILE - A"
 code = "P544"
 rate = "3300"
 hc = "300"
 weight = 11183
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-THYROID", "profile-HORMONE", "profile-VITAMIN"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-LIPID", "profile-METABOLIC", "profile-SUBSET", "profile-THYROID", "profile-HORMONE", "profile-VITAMIN"]
 +++
 OBESITY PROFILE - A consist of 81 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, LIPID, METABOLIC, SUBSET, THYROID, HORMONE, VITAMIN
 <!--more-->

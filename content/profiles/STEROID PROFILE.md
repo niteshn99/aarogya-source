@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P210_banner.jpg"
-date = "1594732099528"
+date = "2020-07-17T09:51:22.763Z"
 title = "STEROID PROFILE"
 code = "P210"
 rate = "3000"
 hc = "100"
 weight = 11155
 categories = ["profile-VITAMIN"]
-tags = ["HIPERTENSION", "profile-STEROID", "profile-VITAMIN", "profile-SUBSET"]
+tags = ["profile-HIPERTENSION", "profile-STEROID", "profile-VITAMIN", "profile-SUBSET"]
 +++
 STEROID PROFILE consist of 15 test and consist of fundamental test for screaning of the health staus like HIPERTENSION, STEROID, VITAMIN, SUBSET
 <!--more-->

@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099539"
+date = "2020-07-17T09:51:22.776Z"
 title = "CORTISOL"
 code = "CORT"
 rate = "800"
 hc = "100"
 weight = 55576
 categories = ["test-METABOLIC"]
-tags = ["Stress", "test-Steroid"]
+tags = ["test-Stress", "test-Steroid"]
 +++
 

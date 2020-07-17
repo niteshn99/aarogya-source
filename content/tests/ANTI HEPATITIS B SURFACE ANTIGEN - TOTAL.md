@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099539"
+date = "2020-07-17T09:51:22.776Z"
 title = "ANTI HEPATITIS B SURFACE ANTIGEN - TOTAL"
 code = "HBST"
 rate = "800"
 hc = "100"
 weight = 55591
 categories = ["test-HEPATITIS"]
-tags = ["HEPATITIS B SURFACE ANTIGEN (TOTAL)"]
+tags = ["test-HEPATITIS B SURFACE ANTIGEN (TOTAL)"]
 +++
 

@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099540"
+date = "2020-07-17T09:51:22.778Z"
 title = "PHENYTOIN / DILANTIN / EPTOIN"
 code = "PHEN"
 rate = "800"
 hc = "100"
 weight = 55645
 categories = ["test-THERAPEUTIC DRUG MONITORING"]
-tags = ["PHENYTOIN", "test-DILANTIN", "test-EPTOIN"]
+tags = ["test-PHENYTOIN", "test-DILANTIN", "test-EPTOIN"]
 +++
 

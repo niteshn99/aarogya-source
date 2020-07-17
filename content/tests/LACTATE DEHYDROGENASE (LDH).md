@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099538"
+date = "2020-07-17T09:51:22.775Z"
 title = "LACTATE DEHYDROGENASE (LDH)"
 code = "LDH"
 rate = "400"
 hc = "100"
 weight = 55570
 categories = ["test-CARDIAC"]
-tags = ["Lactate dehydrogenase", "test-Total LDH", "test-LDH isoenzymes"]
+tags = ["test-Lactate dehydrogenase", "test-Total LDH", "test-LDH isoenzymes"]
 +++
 

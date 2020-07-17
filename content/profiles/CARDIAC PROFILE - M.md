@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P433_banner.jpg"
-date = "1594732099537"
+date = "2020-07-17T09:51:22.773Z"
 title = "CARDIAC PROFILE - M"
 code = "P433"
 rate = "1980"
 hc = "300"
 weight = 11201
 categories = ["profile-HEART HEALTH"]
-tags = ["CARDIAC RISK MARKERS", "profile-LIPID", "profile-SUBSET"]
+tags = ["profile-CARDIAC RISK MARKERS", "profile-LIPID", "profile-SUBSET"]
 +++
 CARDIAC PROFILE - M consist of 15 test and consist of fundamental test for screaning of the health staus like CARDIAC RISK MARKERS, LIPID, SUBSET
 <!--more-->

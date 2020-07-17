@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P453_banner.jpg"
-date = "1594732099525"
+date = "2020-07-17T09:51:22.756Z"
 title = "HEALTHSCREEN - B"
 code = "P453"
 rate = "2700"
 hc = "300"
 weight = 11128
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-VITAMIN", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-VITAMIN", "profile-THYROID"]
 +++
 HEALTHSCREEN - B consist of 72 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC, RENAL, TOXIC ELEMENTS, LIPID, CARDIAC RISK MARKERS, VITAMIN, THYROID
 <!--more-->

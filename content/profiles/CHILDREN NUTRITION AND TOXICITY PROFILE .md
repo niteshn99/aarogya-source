@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P221_banner.jpg"
-date = "1594732099531"
+date = "2020-07-17T09:51:22.770Z"
 title = "CHILDREN NUTRITION AND TOXICITY PROFILE "
 code = "P221"
 rate = "3000"
 hc = "300"
 weight = 11171
 categories = ["profile-CHILD WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-VITAMIN", "profile-G6PD", "profile-THALASSEMIA", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-VITAMIN", "profile-G6PD", "profile-THALASSEMIA", "profile-SUBSET", "profile-THYROID"]
 +++
 CHILDREN NUTRITION AND TOXICITY PROFILE  consist of 78 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, RENAL, TOXIC ELEMENTS, LIPID, VITAMIN, G6PD, THALASSEMIA, SUBSET, THYROID
 <!--more-->

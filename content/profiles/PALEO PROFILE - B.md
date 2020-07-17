@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P473_banner.jpg"
-date = "1594732099536"
+date = "2020-07-17T09:51:22.772Z"
 title = "PALEO PROFILE - B"
 code = "P473"
 rate = "5700"
 hc = "300"
 weight = 11187
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-METABOLIC", "profile-SUBSET", "profile-COMPLETE URINE ANALYSIS", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-METABOLIC", "profile-SUBSET", "profile-COMPLETE URINE ANALYSIS", "profile-THYROID"]
 +++
 PALEO PROFILE - B consist of 122 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, PANCREATIC, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, METABOLIC, SUBSET, COMPLETE URINE ANALYSIS, THYROID
 <!--more-->

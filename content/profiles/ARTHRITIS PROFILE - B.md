@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P380_banner.jpg"
-date = "1594732099530"
+date = "2020-07-17T09:51:22.765Z"
 title = "ARTHRITIS PROFILE - B"
 code = "P380"
 rate = "5700"
 hc = "300"
 weight = 11166
 categories = ["profile-BONE HEALTH"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-RENAL", "profile-AUTOIMMUNITY", "profile-ELECTROLYTES", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-HB27", "profile-SUBSET", "profile-THYROID", "profile-VITAMIN"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-RENAL", "profile-AUTOIMMUNITY", "profile-ELECTROLYTES", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-HB27", "profile-SUBSET", "profile-THYROID", "profile-VITAMIN"]
 +++
 ARTHRITIS PROFILE - B consist of 88 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, RENAL, AUTOIMMUNITY, ELECTROLYTES, LIPID, CARDIAC RISK MARKERS, HB27, SUBSET, THYROID, VITAMIN
 <!--more-->

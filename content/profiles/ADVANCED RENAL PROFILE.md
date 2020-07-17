@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P522_banner.jpg"
-date = "1594732099522"
+date = "2020-07-17T09:51:22.753Z"
 title = "ADVANCED RENAL PROFILE"
 code = "P522"
 rate = "343"
 hc = "300"
 weight = 11120
 categories = ["profile-WELLNESS"]
-tags = ["RENAL", "profile-SUBSET"]
+tags = ["profile-RENAL", "profile-SUBSET"]
 +++
 ADVANCED RENAL PROFILE consist of 11 test and consist of fundamental test for screaning of the health staus like RENAL, SUBSET
 <!--more-->

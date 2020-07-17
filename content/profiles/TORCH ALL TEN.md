@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P088_banner.jpg"
-date = "1594732099526"
+date = "2020-07-17T09:51:22.760Z"
 title = "TORCH ALL TEN"
 code = "P088"
 rate = "2640"
 hc = "100"
 weight = 11148
 categories = ["profile-WOMAN HEALTH"]
-tags = ["PREGNANCY"]
+tags = ["profile-PREGNANCY"]
 +++
 TORCH ALL TEN consist of 10 test and consist of fundamental test for screaning of the health staus like PREGNANCY
 <!--more-->

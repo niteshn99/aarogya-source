@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P161_banner.jpg"
-date = "1594732099536"
+date = "2020-07-17T09:51:22.772Z"
 title = "HEPATITIS PANEL"
 code = "P161"
 rate = "6240"
 hc = "300"
 weight = 11191
 categories = ["profile-INFECTIOUS DISEASE "]
-tags = ["LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HEPATITIS PANEL", "profile-SUBSET", "profile-INFECTIOUS DISEASES"]
+tags = ["profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HEPATITIS PANEL", "profile-SUBSET", "profile-INFECTIOUS DISEASES"]
 +++
 HEPATITIS PANEL consist of 50 test and consist of fundamental test for screaning of the health staus like LIVER, COMPLETE HEMOGRAM, DIABETES, HEPATITIS PANEL, SUBSET, INFECTIOUS DISEASES
 <!--more-->

@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P378_banner.jpg"
-date = "1594732099529"
+date = "2020-07-17T09:51:22.764Z"
 title = "ARTHRITIS PROFILE - M"
 code = "P378"
 rate = "2310"
 hc = "300"
 weight = 11161
 categories = ["profile-BONE HEALTH"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-RENAL", "profile-LIPID", "profile-OTHERS", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-RENAL", "profile-LIPID", "profile-OTHERS", "profile-SUBSET", "profile-THYROID"]
 +++
 ARTHRITIS PROFILE - M consist of 70 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, RENAL, LIPID, OTHERS, SUBSET, THYROID
 <!--more-->

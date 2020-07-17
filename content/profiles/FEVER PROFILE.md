@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P328_banner.jpg"
-date = "1594732099525"
+date = "2020-07-17T09:51:22.753Z"
 title = "FEVER PROFILE"
 code = "P328"
 rate = "396"
 hc = "100"
 weight = 11123
 categories = ["profile-WELLNESS"]
-tags = ["COMPLETE HEMOGRAM", "profile-FEVER", "profile-SUBSET"]
+tags = ["profile-COMPLETE HEMOGRAM", "profile-FEVER", "profile-SUBSET"]
 +++
 FEVER PROFILE consist of 31 test and consist of fundamental test for screaning of the health staus like COMPLETE HEMOGRAM, FEVER, SUBSET
 <!--more-->

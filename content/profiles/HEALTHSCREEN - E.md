@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P460_banner.jpg"
-date = "1594732099534"
+date = "2020-07-17T09:51:22.770Z"
 title = "HEALTHSCREEN - E"
 code = "P460"
 rate = "4000"
 hc = "300"
 weight = 11172
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-THYROID", "profile-HORMONE"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-PANCREATIC", "profile-CARDIAC RISK MARKERS", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-THYROID", "profile-HORMONE"]
 +++
 HEALTHSCREEN - E consist of 82 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, PANCREATIC, CARDIAC RISK MARKERS, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, THYROID, HORMONE
 <!--more-->

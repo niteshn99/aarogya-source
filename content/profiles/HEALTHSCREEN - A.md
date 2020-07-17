@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P452_banner.jpg"
-date = "1594732099529"
+date = "2020-07-17T09:51:22.763Z"
 title = "HEALTHSCREEN - A"
 code = "P452"
 rate = "2100"
 hc = "300"
 weight = 11159
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-THYROID"]
 +++
 HEALTHSCREEN - A consist of 68 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC, RENAL, TOXIC ELEMENTS, LIPID, CARDIAC RISK MARKERS, THYROID
 <!--more-->

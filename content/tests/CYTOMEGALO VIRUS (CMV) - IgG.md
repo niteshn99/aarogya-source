@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099540"
+date = "2020-07-17T09:51:22.777Z"
 title = "CYTOMEGALO VIRUS (CMV) - IgG"
 code = "CM_G"
 rate = "300"
 hc = "100"
 weight = 55623
 categories = ["test-INFECTION PREGNANCY"]
-tags = ["Cytomegalo Virus", "test-CMV"]
+tags = ["test-Cytomegalo Virus", "test-CMV"]
 +++
 

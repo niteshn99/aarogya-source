@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099541"
+date = "2020-07-17T09:51:22.778Z"
 title = "CHLORIDE"
 code = "CHL"
 rate = "200"
 hc = "100"
 weight = 55658
 categories = ["test-RENAL"]
-tags = ["Electrolytes"]
+tags = ["test-Electrolytes"]
 +++
 

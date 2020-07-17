@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P191_banner.jpg"
-date = "1594732099528"
+date = "2020-07-17T09:51:22.763Z"
 title = "PREMARITAL PROFILE"
 code = "P191"
 rate = "2640"
 hc = "300"
 weight = 11152
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HEPATITIS PANEL", "profile-THALASSEMIA", "profile-INFECTIOUS DISEASES", "profile-SUBSET", "profile-THYROID", "profile-VITAMIN"]
+tags = ["profile-IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-HEPATITIS PANEL", "profile-THALASSEMIA", "profile-INFECTIOUS DISEASES", "profile-SUBSET", "profile-THYROID", "profile-VITAMIN"]
 +++
 PREMARITAL PROFILE consist of 48 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, COMPLETE HEMOGRAM, DIABETES, HEPATITIS PANEL, THALASSEMIA, INFECTIOUS DISEASES, SUBSET, THYROID, VITAMIN
 <!--more-->

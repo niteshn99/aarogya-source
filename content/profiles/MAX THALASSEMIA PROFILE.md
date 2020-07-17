@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P369_banner.jpg"
-date = "1594732099529"
+date = "2020-07-17T09:51:22.763Z"
 title = "MAX THALASSEMIA PROFILE"
 code = "P369"
 rate = "2640"
 hc = "300"
 weight = 11157
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-HEPATITIS PANEL", "profile-RENAL", "profile-LIVER", "profile-INFECTIOUS DISEASE", "profile-SUBSET", "profile-INFECTIOUS DISEASES", "profile-THYROID", "profile-VITAMIN"]
+tags = ["profile-IRON DEFICIENCY", "profile-COMPLETE HEMOGRAM", "profile-HEPATITIS PANEL", "profile-RENAL", "profile-LIVER", "profile-INFECTIOUS DISEASE", "profile-SUBSET", "profile-INFECTIOUS DISEASES", "profile-THYROID", "profile-VITAMIN"]
 +++
 MAX THALASSEMIA PROFILE consist of 50 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, COMPLETE HEMOGRAM, HEPATITIS PANEL, RENAL, LIVER, INFECTIOUS DISEASE, SUBSET, INFECTIOUS DISEASES, THYROID, VITAMIN
 <!--more-->

@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P094_banner.jpg"
-date = "1594732099529"
+date = "2020-07-17T09:51:22.764Z"
 title = "TUMOUR PANEL (FEMALE)"
 code = "P094"
 rate = "3840"
 hc = "100"
 weight = 11163
 categories = ["profile-CANCER"]
-tags = ["TUMOUR"]
+tags = ["profile-TUMOUR"]
 +++
 TUMOUR PANEL (FEMALE) consist of 6 test and consist of fundamental test for screaning of the health staus like TUMOUR
 <!--more-->

@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P421_banner.jpg"
-date = "1594732099528"
+date = "2020-07-17T09:51:22.763Z"
 title = "DIABETIC PROFILE - A"
 code = "P421"
 rate = "3300"
 hc = "300"
 weight = 11151
 categories = ["profile-DIABETES"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-PANCREATIC", "profile-RENAL", "profile-ELECTROLYTES", "profile-LIPID", "profile-SUBSET", "profile-THYROID"]
 +++
 DIABETIC PROFILE - A consist of 81 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, PANCREATIC, RENAL, ELECTROLYTES, LIPID, SUBSET, THYROID
 <!--more-->

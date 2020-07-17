@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P448_banner.jpg"
-date = "1594732099526"
+date = "2020-07-17T09:51:22.758Z"
 title = "METABOLIC PROFILE - A"
 code = "P448"
 rate = "3900"
 hc = "300"
-weight = 11143
+weight = 11142
 categories = ["profile-WELLNESS"]
-tags = ["IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-WELLNESS", "profile-SUBSET", "profile-ARTHRITIS", "profile-ELEMENTS", "profile-THYROID"]
+tags = ["profile-IRON DEFICIENCY", "profile-LIVER", "profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-RENAL", "profile-TOXIC ELEMENTS", "profile-ELECTROLYTES", "profile-LIPID", "profile-VITAMIN", "profile-WELLNESS", "profile-SUBSET", "profile-ARTHRITIS", "profile-ELEMENTS", "profile-THYROID"]
 +++
 METABOLIC PROFILE - A consist of 192 test and consist of fundamental test for screaning of the health staus like IRON DEFICIENCY, LIVER, COMPLETE HEMOGRAM, DIABETES, RENAL, TOXIC ELEMENTS, ELECTROLYTES, LIPID, VITAMIN, WELLNESS, SUBSET, ARTHRITIS, ELEMENTS, THYROID
 <!--more-->

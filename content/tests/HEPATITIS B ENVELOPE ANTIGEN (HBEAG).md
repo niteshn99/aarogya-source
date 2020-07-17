@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099540"
+date = "2020-07-17T09:51:22.777Z"
 title = "HEPATITIS B ENVELOPE ANTIGEN (HBEAG)"
 code = "EAG"
 rate = "800"
 hc = "100"
 weight = 55616
 categories = ["test-HEPATITIS"]
-tags = ["Hepatitis Envelope Antigen", "test-HBeAg"]
+tags = ["test-Hepatitis Envelope Antigen", "test-HBeAg"]
 +++
 

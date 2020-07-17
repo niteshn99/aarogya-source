@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P155_banner.jpg"
-date = "1594732099526"
+date = "2020-07-17T09:51:22.758Z"
 title = "ARTHRITIS PROFILE"
 code = "P155"
 rate = "3000"
 hc = "300"
 weight = 11141
 categories = ["profile-WELLNESS"]
-tags = ["COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-LIVER", "profile-RENAL", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-HB27", "profile-THYROID", "profile-VITAMIN"]
+tags = ["profile-COMPLETE HEMOGRAM", "profile-DIABETES", "profile-ARTHRITIS", "profile-LIVER", "profile-RENAL", "profile-LIPID", "profile-CARDIAC RISK MARKERS", "profile-HB27", "profile-THYROID", "profile-VITAMIN"]
 +++
 ARTHRITIS PROFILE consist of 51 test and consist of fundamental test for screaning of the health staus like COMPLETE HEMOGRAM, DIABETES, ARTHRITIS, LIVER, RENAL, LIPID, CARDIAC RISK MARKERS, HB27, THYROID, VITAMIN
 <!--more-->

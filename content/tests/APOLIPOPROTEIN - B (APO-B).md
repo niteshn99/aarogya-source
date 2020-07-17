@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099541"
+date = "2020-07-17T09:51:22.778Z"
 title = "APOLIPOPROTEIN - B (APO-B)"
 code = "APOB"
 rate = "800"
 hc = "300"
 weight = 55664
 categories = ["test-WELLNESS"]
-tags = ["APO B "]
+tags = ["test-APO B "]
 +++
 

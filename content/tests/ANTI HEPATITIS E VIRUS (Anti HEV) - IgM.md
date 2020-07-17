@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099540"
+date = "2020-07-17T09:51:22.777Z"
 title = "ANTI HEPATITIS E VIRUS (Anti HEV) - IgM"
 code = "HEVM"
 rate = "800"
 hc = "100"
 weight = 55629
 categories = ["test-HEPATITIS"]
-tags = ["Hepatitis E Virus"]
+tags = ["test-Hepatitis E Virus"]
 +++
 

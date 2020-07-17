@@ -3,14 +3,14 @@ contenttype = "profile"
 showonlyimage = true
 draft = false
 image = "http://www.thyrocare.com/wellness/img/Banner/P689_banner.jpg"
-date = "1594732099526"
+date = "2020-07-17T09:51:22.760Z"
 title = "INFECTION CHECKUP PROFILE"
 code = "P689"
 rate = "2000"
 hc = "300"
 weight = 11149
 categories = ["profile-WELLNESS"]
-tags = ["COAGULATION", "profile-IRON DEFICIENCY", "profile-INFECTION"]
+tags = ["profile-COAGULATION", "profile-IRON DEFICIENCY", "profile-INFECTION"]
 +++
 INFECTION CHECKUP PROFILE consist of 4 test and consist of fundamental test for screaning of the health staus like COAGULATION, IRON DEFICIENCY, INFECTION
 <!--more-->

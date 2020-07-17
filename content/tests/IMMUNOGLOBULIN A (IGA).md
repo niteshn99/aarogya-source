@@ -2,13 +2,13 @@
 contenttype = "test"
 showonlyimage = false
 draft = false
-date = "1594732099540"
+date = "2020-07-17T09:51:22.777Z"
 title = "IMMUNOGLOBULIN A (IGA)"
 code = "IGA"
 rate = "1000"
 hc = "100"
 weight = 55639
 categories = ["test-AUTOIMMUNE"]
-tags = ["Immunoglobulin"]
+tags = ["test-Immunoglobulin"]
 +++
 
